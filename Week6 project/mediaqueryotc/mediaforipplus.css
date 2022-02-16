@@ -1,0 +1,239 @@
+
+@media all and (min-device-width: 414px) and (max-device-width: 736px) {
+    .body{
+        width: 100%;
+        background: #f5f2f281;  
+    }
+    .navbar{
+        color: var(--textcolor);
+        position: fixed;
+    }
+    .logo{
+        height: 60%;
+        width: auto;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .search-box{
+        display: none;
+    }
+    .nav-items{
+        margin-left: 30px;
+    }
+    ._8-yf5{
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 26px;
+        width: auto;
+        margin-top: 3px;
+    }
+    .profile-picture{
+        margin-top: 2px;
+    }
+    .otc-logo{
+        height: 80px;
+        margin-left: 20px;
+        border: 3px solid #F77737;
+        margin-top: 70px;
+    }
+    .post1{
+        margin-left: 70px;
+    }
+    .post1 p{
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .follow{
+        margin-left: -120px;
+        margin-top: 120px;
+        width: 180px;
+    }
+    .more{
+        margin-left: 10px;
+        margin-top: 120px;
+        height: 31px;
+    }
+    .post1 .icon{
+        margin-left: -80px;
+        margin-top: 80px;
+    }
+    .post3{
+        margin-left: 20px;
+        margin-top: 17px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .post4{
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .post5{
+        margin-left: 20px;
+        margin-top: 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .post6{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .post7{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .link{
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .highlight{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .how{
+        height: 60px;
+        width: auto;
+        margin-left: 0px;
+    }
+    .tap-me{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .one-house{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .why{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .review{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .minh1{
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .minh2{
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .minh3{
+        font-size: 13px;
+        margin-left: 7px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .minh4{
+        font-size: 13px;
+        margin-left: 23px;
+        margin-top: 0px;
+    }
+    .minh5{
+        font-size: 13px;
+        margin-left: 13px;
+        margin-top: 0px;
+    }
+    .post2{
+        position: relative;
+        top: 345px;
+        left: 25px;
+        margin-left: 40px;
+    }
+    .line1{
+        border-top: 1px solid #dfdfdf;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+    }
+    #m{
+        margin-left: -50px;
+        font-size: 14px;
+    }
+    #i{
+        margin-left: 85px;
+        font-size: 14px;
+    }
+    #n{
+        font-size: 14px;
+        margin-left: 85px;
+    }
+    .strong1{
+        margin-left: 4px;
+    }
+    .strong2{
+        margin-left: 10px;
+    }
+    .strong3{
+        margin-left: 20px;
+    }
+    .options{
+        margin-left: 15px;
+    }
+    .post-minh{
+        margin-left: 28px;
+    }
+    .guide{
+        margin-left: 50px;
+    }
+    .mm{
+        display: none;
+    }
+    .reel{
+        margin-left: 50px;
+    }
+    .video{
+        margin-left: 50px;
+    }
+    .tag{
+        margin-left: 50px;
+    }
+    ._8-yf5-6{
+        width: 25px;
+        height: 25px;
+    }
+    .posts{
+        margin-left: 0px;
+        margin-top: 0px;
+        gap: 4px;
+        width: 375px;
+    }
+    .image{
+        height: 136px;
+        width: 136px;
+    }
+    .imgContainer{
+        height: 136px;
+        width: 136px;
+    }
+    .imgContainer:hover{
+        transform: scale(1);
+        
+    }
+    .imgContainer .links i{
+        color: transparent;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .imgContainer .links{
+        top: 37%;
+        left: 25%;
+    }
+}

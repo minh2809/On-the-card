@@ -229,10 +229,13 @@ var itemList = document.querySelector('#items');
 
      //itemInput.addEventListener('input',runEvent);
      
+     form.addEventListener('submit',runEvent);
+
      select.addEventListener('change',runEvent);
      select.addEventListener('input',runEvent);
 
     function runEvent(e){
+        e.preventDefault();
         console.log('EVENT TYPE: '+e.type);
 
         // document.body.style.display = ' none';

@@ -76,7 +76,7 @@ body {
   padding: 8px 0;
   font-size: 18px;
   color: #fff;
-  /* display: none; */
+  display: none;
   background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
 }
 .wrapper.active:hover .file-name {

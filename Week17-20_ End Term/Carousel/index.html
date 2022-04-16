@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-
-    <title>Hello, world!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container"></div>
+
+
+    <div class="slider">
+      <div class="slides" >
+        <i class="fa fa-angle-left slider-prev" onclick="prev()"></i>
+        <i class="fa fa-angle-right slider-next" onclick="next()"></i>
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+
+        
+        <div class="slide first" >
+          <img src="/Week17-20_ End Term/Carousel/assets/image7.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/Week17-20_ End Term/Carousel/assets/image8.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/Week17-20_ End Term/Carousel/assets/image11.jpeg" alt="">
+        </div>
+    
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+
+        </div>
+
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+
+      
+    </div>
+
+
+    <script src="script.js" defer>
+
+    </script>
+
   </body>
 </html>
+      

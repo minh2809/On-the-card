@@ -1,6 +1,5 @@
 const defaultButton = document.getElementById('default-btn')
 console.log(defaultButton)
-const customButton = document.getElementById('custom-btn');
 var addImg = document.querySelector('img');
 var addFile = document.querySelector('.file-name')
 var regular_expression = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;

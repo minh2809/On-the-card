@@ -1,4 +1,5 @@
 var counter = 1;
+
 setInterval(function(){
   document.getElementById('radio' + counter).checked = true;
   counter++;
@@ -11,17 +12,22 @@ setInterval(function(){
 var pictures = document.querySelectorAll('.slide');
 
 function next(){
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if(counter > 3){
+  if(document.getElementById('radio' + counter).checked = true && counter ==1){
+    counter ++;
+  }else if(document.getElementById('radio' + counter).checked = true && counter == 2){
+    counter++;
+  }else if(document.getElementById('radio' + counter).checked = true && counter == 3){
     counter = 1;
   }
 }
 
+
 function prev(){
-  document.getElementById('radio' + counter).checked = true;
-  counter--;
-  if(counter < 1){
+  if(document.getElementById('radio' + counter).checked = true && counter == 3){
+    counter--;
+  }else if(document.getElementById('radio' + counter).checked = true && counter == 2){
+    counter--;
+  }else if(document.getElementById('radio' + counter).checked = true && counter == 1){
     counter = 3;
   }
 }

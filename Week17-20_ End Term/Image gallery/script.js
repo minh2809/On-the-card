@@ -6,7 +6,7 @@ setInterval(function(){
   if(counter > pictures.length){
     counter = 1;
   }
-}, 100000);
+}, 10000);
 
 
 var pictures = document.querySelectorAll('.slide');

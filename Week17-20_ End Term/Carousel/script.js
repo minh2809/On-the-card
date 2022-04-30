@@ -3,33 +3,29 @@ var counter = 1;
 setInterval(function(){
   document.getElementById('radio' + counter).checked = true;
   counter++;
-  if(counter > 3){
+  if(counter > pictures.length){
     counter = 1;
   }
-}, 100000);
+}, 10000);
 
 
 var pictures = document.querySelectorAll('.slide');
 
 function next(){
-  if(document.getElementById('radio' + counter).checked = true && counter ==1){
-    counter ++;
-  }else if(document.getElementById('radio' + counter).checked = true && counter == 2){
+    document.getElementById('radio' + counter).checked = true;
     counter++;
-  }else if(document.getElementById('radio' + counter).checked = true && counter == 3){
-    counter = 1;
-  }
+    if(counter > pictures.length){
+      counter = 1;
+    }
 }
 
 
 function prev(){
-  if(document.getElementById('radio' + counter).checked = true && counter == 3){
+    document.getElementById('radio' + counter).checked = true;
     counter--;
-  }else if(document.getElementById('radio' + counter).checked = true && counter == 2){
-    counter--;
-  }else if(document.getElementById('radio' + counter).checked = true && counter == 1){
-    counter = 3;
-  }
+    if(counter < 1){
+      counter = pictures.length;
+    }
 }
 
 

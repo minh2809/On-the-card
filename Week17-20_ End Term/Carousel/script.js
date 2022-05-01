@@ -1,31 +1,32 @@
 var counter = 1;
+document.getElementById('radio' + counter).checked = true;
 
 setInterval(function(){
-  document.getElementById('radio' + counter).checked = true;
   counter++;
   if(counter > pictures.length){
     counter = 1;
   }
+  document.getElementById('radio' + counter).checked = true;
 }, 10000);
 
 
 var pictures = document.querySelectorAll('.slide');
 
 function next(){
-    document.getElementById('radio' + counter).checked = true;
     counter++;
     if(counter > pictures.length){
       counter = 1;
     }
+    document.getElementById('radio' + counter).checked = true;
 }
 
 
 function prev(){
-    document.getElementById('radio' + counter).checked = true;
     counter--;
     if(counter < 1){
       counter = pictures.length;
     }
+    document.getElementById('radio' + counter).checked = true;
 }
 
 

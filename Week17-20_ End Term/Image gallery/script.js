@@ -39,13 +39,13 @@ function defaultBtnActive(){
 }
 
 function addImage(){
-  var image = document.createElement("img");
   var reader = new FileReader();
   reader.onload = function(){
+    var image = document.createElement("img");
     image.src = reader.result;
+    pictures[0].appendChild(image);
   }
   if(event.target.files[0]){
     reader.readAsDataURL(event.target.files[0]);
   }
-  pictures[0].appendChild(image);
 }

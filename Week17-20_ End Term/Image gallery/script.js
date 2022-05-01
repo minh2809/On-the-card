@@ -11,6 +11,7 @@ document.getElementById('radio' + counter).checked = true;
 
 
 var pictures = document.querySelectorAll('.slide');
+console.log(pictures[0])
 
 function next(){
     counter++;
@@ -43,6 +44,8 @@ function addImage(){
   reader.onload = function(){
     image.src = reader.result;
   }
-  reader.readAsDataURL(event.target.files[0]);
-  document.querySelector('.slide first').appendChild(image);
+  if(event.target.files[0]){
+    reader.readAsDataURL(event.target.files[0]);
+  }
+  pictures[0].appendChild(image);
 }

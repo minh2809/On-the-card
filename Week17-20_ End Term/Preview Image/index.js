@@ -12,7 +12,7 @@ function defaultBtnActive(){
     defaultButton.click();
 }
 
-function previewImage(e){
+function previewImage(event){
     var reader = new FileReader();
     reader.onload = function(){
         addImg.src = reader.result;

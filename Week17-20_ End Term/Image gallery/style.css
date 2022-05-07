@@ -99,6 +99,7 @@ body{
   
   .manual-btn:hover{
     background: rgba(255,255,255,.5);
+
   }
   
   #radio1:checked ~ .first{
@@ -196,6 +197,10 @@ body{
   
   .buttons{
     display: flex;
+  }
+  
+  .inactive{
+  display: none;
   }
 
   @media screen and (max-width: 768px) {

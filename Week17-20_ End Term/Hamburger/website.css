@@ -5,13 +5,17 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
+    width: 100%;
+    position: relative;
 }
+
 
 /*global*/
 .container{
     width: 100%;
     margin:auto;
     overflow: hidden;
+
 }
 
 ul{
@@ -267,4 +271,73 @@ footer{
     background-color: #e8491d;
     text-align: center;
 }
+
+@media  (max-device-width: 1024px) {
+    body{
+        position: relative;
+    }
+    header{
+        position: fixed;
+    }
+    .hamburger{
+        position: absolute;
+        width: 35px;
+        left: 90%;
+        margin-top: 25px;
+    }
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        top:99px;
+        left: 130%;
+        width: 40%;
+        height: 90%;
+        z-index: 1;
+        background-color: #35424a;
+        transition: 0.4s;
+        margin-left: -90px;
+    }
+    li{
+        margin-right: 50px;
+    }
+}
+
+
+@media  (max-device-width: 700px) {
+    body{
+        position: relative;
+    }
+    header{
+        position: fixed;
+    }
+    .hamburger{
+        position: absolute;
+        width: 35px;
+        left: 85%;
+        margin-top: 25px;
+    }
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        left: 130%;
+        width: 90%;
+        height: 90%;
+        z-index: 1;
+        background-color: #35424a;
+        transition: 0.4s;
+        margin-left: -90px;
+    }
+    .mobile-nav.is-active{
+        width: 140%;
+        left: 10%;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
 

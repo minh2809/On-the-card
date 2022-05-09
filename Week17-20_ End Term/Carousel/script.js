@@ -1,13 +1,13 @@
 var counter = 1;
 document.getElementById('radio' + counter).checked = true;
 
-setInterval(function(){
-  counter++;
-  if(counter > pictures.length){
-    counter = 1;
-  }
-  document.getElementById('radio' + counter).checked = true;
-}, 10000);
+// setInterval(function(){
+//   counter++;
+//   if(counter > pictures.length){
+//     counter = 1;
+//   }
+//   document.getElementById('radio' + counter).checked = true;
+// }, 10000);
 
 
 var pictures = document.querySelectorAll('.slide');

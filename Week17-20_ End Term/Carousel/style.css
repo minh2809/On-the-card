@@ -28,12 +28,16 @@ body{
 .slide{
   width: 20%;
   transition: 2s;
+  position: relative;
 }
 
 .slide > img{
-  width: 800px;
-  height: 500px;
+  width: 792px;
+  height: 490px;
   object-fit:fill;
+  position: absolute;
+  right: 4px;
+  border-radius: 10px;
 }
 
 img{
@@ -57,23 +61,29 @@ img{
   font-size: 30px;
   z-index: 10;
 }
-
+.button{
+  position: relative;
+}
 .slider-next {
-  right: 310px;
+  position: absolute;
+  left:745px;
+  top:230px;
   transition: 200ms;
 }
 .slider-prev {
-  left: 310px;
+  position: absolute;
+  left:5px;
+  top:230px;
   transition: 200ms;
 }
 
 .slider-prev:hover{
-  transform: scale(1.5) perspective(1px);
+  transform: scale(1.2) ;
 }
 
 .slider-next:hover{
 /*  Making button bigger on hover  */
-  transform: scale(1.5) perspective(1px);
+  transform: scale(1.2) ;
 }
 
 .navigation-manual{
@@ -156,13 +166,25 @@ img{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and  (min-width: 768px) {
   img {
     width: 95vw;
     height: 60vw !important;
   }
-  .container {
-    width: 95vw;
-    height: 60vw !important;
+  .slides{
+    position: relative;
+  }
+  .slider-prev{
+    position: absolute;
+    left:0px;
+    top:230px;
+
+  }
+  .slider-next{
+    position: absolute;
+    left:750px;
+    top:230px;
   }
 }
+
+

@@ -61,11 +61,9 @@
 
 
     <div class="buttons">
-
-    <button  id="custom-btn"> Choose a file</button>
-      
-    <form action="" method="post" id="_imagesForm">
-    <input id="default-btn" type="file" hidden />
+    <form class="form" action="" method="post" id="_imagesForm">
+      <button  id="custom-btn" onclick="defaultBtnActive()">Choose a file</button>
+      <input id="default-btn" type="file" hidden onchange=" handleFileSelect()"/>
     </form>
 
     <!-- <button onclick="defaultBtnActive()" id="delete-btn">
@@ -83,4 +81,3 @@
   </body>
 </html>
       
-

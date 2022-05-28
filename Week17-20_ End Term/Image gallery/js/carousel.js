@@ -18,7 +18,7 @@ function currentSlideCarousel(n) {
 function showSlidesCarousel(n) {
   let i;
   let slides = document.getElementsByClassName("outerCarousel");
-  let dots = document.getElementsByClassName("dot2");
+  let dots = document.getElementsByClassName("outerdot");
   if (n > slides.length) {
     slideActive = 1;
   }
@@ -63,7 +63,7 @@ function addImageToCarousel(imgSource, appendingDiv) {
 
 function addSliderDot(index, appendingDiv) {
   const spanSlider = document.createElement("span");
-  spanSlider.classList = "dot2";
+  spanSlider.classList = "outerdot";
   spanSlider.setAttribute("onclick", `currentSlideCarousel(${index})`);
 
   appendingDiv.appendChild(spanSlider);

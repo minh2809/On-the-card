@@ -17,7 +17,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("innerCarousel");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("innerdot");
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -61,7 +61,7 @@ function addImageToCarouselModal(imgSource, appendingDiv) {
 
 function addSliderDotModal(index, appendingDiv) {
   const spanSlider = document.createElement("span");
-  spanSlider.classList = "dot";
+  spanSlider.classList = "innerdot";
   spanSlider.setAttribute("onclick", `currentSlide(${index})`);
 
   appendingDiv.appendChild(spanSlider);

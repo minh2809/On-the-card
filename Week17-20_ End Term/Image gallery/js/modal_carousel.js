@@ -59,7 +59,7 @@ function addImageToCarouselModal(imgSource, appendingDiv) {
 
 
 
-function addBottomSliderModal(index, appendingDiv) {
+function addSliderDotModal(index, appendingDiv) {
   const spanSlider = document.createElement("span");
   spanSlider.classList = "dot";
   spanSlider.setAttribute("onclick", `currentSlide(${index})`);
@@ -72,7 +72,7 @@ function resetCarouselModal() {
   bottomSliderDiv.innerHTML = ``;
 }
 
-function renderCarouselModal() {
+function CarouselModal() {
   const amountOfImages = imagesDiv.children.length;
   const imageArray = data.images;
 
@@ -80,7 +80,7 @@ function renderCarouselModal() {
     resetCarouselModal();
     for (let i = 0; i < imageArray.length; i++) {
       addImageToCarouselModal(imageArray[i], imagesDiv);
-      addBottomSliderModal(i + 1, bottomSliderDiv);
+      addSliderDotModal(i + 1, bottomSliderDiv);
     }
     slideIndex = imageArray.length;
     showSlides(slideIndex);
@@ -99,6 +99,6 @@ function renderCarouselModal() {
 }
 
 setInterval(() => {
-  renderCarouselModal();
+  CarouselModal();
 }, 1);
 

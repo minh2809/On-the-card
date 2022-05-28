@@ -74,7 +74,7 @@ function resetCarousel() {
  sliderDot.innerHTML = ``;
 }
 
-function renderCarousel() {
+function outerCarousel() {
   const amountOfImages = imagesSection.children.length;
   const imageArray = data.images;
 
@@ -101,7 +101,7 @@ function renderCarousel() {
 }
 
 setInterval(() => {
-  renderCarousel();
+  outerCarousel();
 }, 10);
 
 setInterval(() => {

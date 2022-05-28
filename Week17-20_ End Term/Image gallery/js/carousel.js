@@ -17,7 +17,7 @@ function currentSlideCarousel(n) {
 
 function showSlidesCarousel(n) {
   let i;
-  let slides = document.getElementsByClassName("mySlides2");
+  let slides = document.getElementsByClassName("outerCarousel");
   let dots = document.getElementsByClassName("dot2");
   if (n > slides.length) {
     slideActive = 1;

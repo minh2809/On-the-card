@@ -38,7 +38,7 @@ function showSlides(n) {
 }
 
 /*
-<div class="mySlides fade">
+<div class="innerCarousel fade">
     <div class="background-blur" style="background-image:url(...)"></div> // Dùng cho ảnh mờ viền
     <img src="./assets/image6.jpeg" class="carousel-image" /> // Dùng cho ảnh nằm chính giữa
 </div>
@@ -46,7 +46,7 @@ function showSlides(n) {
 function addImageToCarouselModal(imgSource, appendingDiv) {
   // creating the image div, note that deleteImage is found in modal.js
   const imageContainer = document.createElement("div");
-  imageContainer.classList = "mySlides fade";
+  imageContainer.classList = "innerCarousel fade";
   imageContainer.innerHTML = `
   <div class="background-blur2" style="background-image:url(${imgSource})"></div>
   <div class="deleteBtn" onClick="deleteImage(${appendingDiv.children.length})">x</div> 

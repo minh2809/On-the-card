@@ -14,12 +14,12 @@
   margin-bottom: 15px;
 }
 
-.mySlides2 {
+.outerCarousel {
   height: 370px;
 }
 /* Hide the images by default */
-.mySlides,
-.mySlides2 {
+.innerCarousel,
+.outerCarousel {
   display: none;
 }
 

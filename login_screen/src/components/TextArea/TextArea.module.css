@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .textArea {
+    resize: none;
+    font-family: sans-serif;
+    background-color: white;
+  
+    border: 1px solid var(--lightGrey);
+    border-radius: 5px;
+  
+    font-size: 0.9rem;
+    padding: 9px 12px;
+    
+  }
+  
+  .textArea:focus {
+    outline: none !important;
+    border-color: #3A77ED;
+    border-width: 1px;
+  }
+
+  .red_alert{
+    font-size: 11px;
+    color: red;
+  }
+
+

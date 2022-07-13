@@ -1,0 +1,46 @@
+.checkbox{
+    margin-top: 16px;
+    display: flex;
+    position: absolute;
+    top:55%;
+}
+
+.main{
+    display: block;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+label > input[type="checkbox"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 12.5px;
+    height: 12.1px;
+    border-radius: 15%;
+    border: 2.3px solid black;
+  }
+
+label > input[type="checkbox"]:checked + *::before {
+    content: "✓";
+    color: white;
+    text-align: center;
+    background: black;
+    border-color: black;
+}
+
+label > input[type="checkbox"]:checked + * {
+    color: black;
+}
+
+label > input[type=checkbox] {
+    display:none;
+}
+
+.rememberme{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+

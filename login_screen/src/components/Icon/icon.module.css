@@ -1,0 +1,9 @@
+.icon{
+    cursor: pointer;
+    position: absolute;
+    top:49%;
+    right: 6%;
+    height: 13px;
+    color: rgb(156, 153, 153)!important;
+}
+

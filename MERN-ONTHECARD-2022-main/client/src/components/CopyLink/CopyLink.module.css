@@ -1,0 +1,151 @@
+.accountUrlArea {
+  display: flex;
+  align-items: center;
+}
+
+.copyLinkContainer {
+  display: flex;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  justify-content: center;
+}
+
+.copyLinkTitle {
+  font-weight: 900;
+  font-size: 1rem;
+  margin-right: 0.5vw;
+}
+
+.accountUrl {
+  cursor: pointer;
+  padding-top: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: rgb(0, 102, 176);
+  margin-right: 0.5vw;
+}
+
+.copyLinkButton {
+  position: relative;
+  background: rgba(41, 96, 237, 0.1);
+  height: fit-content;
+  margin-top: 1.2vh;
+  padding: 0.75vh 1vw;
+  font-size: 0.75rem;
+  border: 1px solid rgba(41, 96, 237, 0.1);
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.IconCopy {
+  height: 1.75vh;
+  width: auto;
+  margin-right: 5px;
+}
+
+.seePageButton {
+  font-family: "Inter", sans-serif !important;
+  margin-left: 1vw !important;
+  background: #2960ed !important;
+  font-size: 0.7rem !important;
+  padding: 0.75vh 1vw !important;
+  height: fit-content !important;
+  margin-top: 1.2vh !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+}
+
+.seePageButton i {
+  margin-right: 0.2vw;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-height: 1024px) {
+  .copyLinkButton {
+    margin-top: 0.85vh;
+    padding: 0.5vh 1.5vw;
+  }
+  .IconCopy {
+    height: 1vh;
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .seePageButton {
+    font-size: 0.65rem !important;
+    margin-top: 1vh !important;
+    padding: 0.45vh 1vw !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .copyLinkButton {
+    margin-top: 1.1vh !important;
+    padding: 0.5vh 1.5vw;
+  }
+  .IconCopy {
+    height: 1vh;
+    width: auto;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyLinkButton {
+    margin-top: 1.2vh;
+    padding: 1vh 1.5vw;
+    width: fit-content;
+  }
+
+  .seePageButton {
+    margin-left: 1vw !important;
+    background: #2960ed !important;
+    font-size: 0.65rem !important;
+    margin-top: 1.2vh !important;
+    padding: 0.75vh 2vw !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    font-weight: 800 !important;
+    cursor: pointer !important;
+    margin-left: 5vw !important;
+  }
+
+  .seePageButton i {
+    margin-right: 0.5vw;
+  }
+
+  .IconCopy {
+    height: 1vh;
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .copyLinkContainer {
+    display: block;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+  }
+
+  .copyLinkTitle {
+    font-size: 1rem;
+    margin-right: 0.5vw;
+    margin-top: 0vh !important;
+  }
+
+  .accountUrl {
+    cursor: pointer;
+    padding-top: 0rem;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: rgb(0, 102, 176);
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+}

@@ -1,0 +1,77 @@
+.MainPage {
+  width: 100%;
+  height: wrap;
+  padding-bottom: 15%;
+  padding-top: 55px;
+}
+
+.locked {
+  position: relative;
+  color: white;
+  margin-top: 0vh;
+  padding-top: 35vh;
+  width: 36%;
+  left: 32%;
+}
+
+.footer {
+  padding-top: 20vh;
+}
+
+.downloadButtonWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px 0;
+}
+
+.b2bTab {
+  height: 70px;
+}
+
+@media screen and (max-width: 1050px) {
+  .MainPage {
+    margin-top: 0;
+    padding-top: 1px;
+  }
+
+  .downloadButtonWrapper {
+    margin: 1vh 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 0.85rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .locked {
+    padding-top: 30vh;
+    width: 44%;
+    left: 28%;
+  }
+
+  .footer {
+    padding-top: 20vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .downloadButtonWrapper {
+    font-size: 0.8rem !important;
+  }
+
+  .locked {
+    padding-top: 35vh;
+    width: 84%;
+    left: 8%;
+  }
+
+  .footer {
+    padding-top: 5vh;
+  }
+
+  .b2bTab {
+    height: 55px;
+  }
+}

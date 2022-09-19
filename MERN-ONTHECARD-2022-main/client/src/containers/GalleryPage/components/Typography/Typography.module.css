@@ -1,0 +1,57 @@
+.title {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.badge {
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px;
+  text-align: center;
+
+  background-color: var(--black);
+  color: white;
+  padding: 6px 25px;
+  border-radius: 5px;
+}
+
+.paragraph {
+  position: relative;
+  margin: 0px 0px;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.danger {
+  color: var(--danger);
+}
+
+.success {
+  color: var(--successDark);
+}
+
+.white {
+  color: whitesmoke;
+}
+
+.bgSuccess {
+  color: var(--successDark);
+  background-color: var(--successLight);
+}
+
+.bgDanger {
+  color: var(--dangerDark);
+  background-color: var(--dangerLight);
+}
+
+.bgInfo {
+  color: var(--primaryDark);
+  background-color: var(--primaryLight);
+}

@@ -1,0 +1,172 @@
+.container {
+  position: relative;
+}
+
+.title {
+  font-size: 1.25rem;
+}
+
+.title span {
+  font-weight: 900 !important;
+  color: #0275d8;
+}
+
+.infoContainer {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  position: relative;
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 12px;
+  margin: 10px;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  font-weight: 600;
+
+  backdrop-filter: blur(15.4368px);
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.linksContainer {
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.LinkBox {
+  position: relative;
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 12px;
+  margin: 10px auto;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  font-weight: 600;
+  width: 60%;
+
+  backdrop-filter: blur(15.4368px);
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.LinkBox p {
+  margin-top: 19px;
+}
+
+.imgRound {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.imgBank {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  margin-left: 5px;
+}
+
+.imgOther {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+
+.count {
+  color: rgb(3, 61, 221);
+}
+
+.reloadButton {
+  position: relative;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  left: 36%;
+  width: 28%;
+  background: black;
+  border: 1px solid #e5e5ef;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  padding: 12px 0vw;
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+
+  backdrop-filter: blur(16px);
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.reloadButton:hover {
+  background-color: #282828;
+}
+
+@media screen and (max-width: 600px) {
+  .infoContainer {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .box {
+    margin: 5px;
+    font-size: 0.7rem;
+    padding: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .LinkBox {
+    width: 80%;
+  }
+
+  .LinkBox p {
+    margin-top: 22.5px;
+    font-size: 0.8rem;
+  }
+
+  .reloadButton {
+    margin-top: 1.5vh;
+    margin-bottom: 3.5vh;
+    left: 30%;
+    width: 40%;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .box {
+    font-size: 0.65rem;
+  }
+
+  .reloadButton {
+    font-size: 0.65rem;
+    left: 30%;
+    width: 40%;
+  }
+}

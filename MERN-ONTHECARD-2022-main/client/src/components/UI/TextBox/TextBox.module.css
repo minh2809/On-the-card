@@ -1,0 +1,172 @@
+.inputDiv {
+  position: relative;
+  /* right: -27.5%; */
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 3px 0;
+  border-bottom: 2px solid #d9d9d9;
+  margin-top: 0;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.eyeIcon {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.error {
+  border-bottom: 2px solid red;
+}
+
+.i {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i i {
+  transition: 0.3s;
+}
+
+.inputDiv > div {
+  position: relative;
+  height: 45px;
+}
+
+.inputDiv > div > h5 {
+  position: absolute;
+  left: 10px;
+  top: -10%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.inputDiv:before,
+.inputDiv:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #3f51b5;
+  transition: 0.4s;
+}
+
+.inputDiv:before {
+  right: 50%;
+}
+
+.inputDiv:after {
+  left: 50%;
+}
+
+.inputDiv.focus:before,
+.inputDiv.focus:after {
+  width: 50%;
+}
+
+.inputDiv.focus > div > h5 {
+  top: -20px;
+  font-size: 15px;
+}
+
+.inputDiv.focus > .i > i {
+  color: #3f51b5;
+}
+
+.inputDiv > div > input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+}
+
+.inputDiv.pass {
+  margin-bottom: 4px;
+}
+
+.errorSpan {
+  position: relative;
+  top: 45%;
+  left: 10%;
+  color: red;
+}
+
+@media screen and (max-width: 1025px) {
+}
+
+@media screen and (max-width: 767px) {
+  .inputDiv {
+    /* right: -32.5%;
+    width: 15rem; */
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .inputDiv > div > h5 {
+    top: 5%;
+    font-size: 0.65rem;
+  }
+
+  .inputDiv.focus > div > h5 {
+    top: -20px;
+    font-size: 10px;
+  }
+
+  .inputDiv > div > input {
+    top: -0.75rem;
+    font-size: 1rem;
+  }
+
+  .errorSpan {
+    top: -35%;
+    left: 0%;
+    font-size: 0.7rem;
+  }
+
+  .eyeIcon {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .inputDiv {
+    /* right: -40%; */
+    /* width: 15rem; */
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .inputDiv > div > h5 {
+    top: 5%;
+    font-size: 0.55rem;
+  }
+
+  .inputDiv.focus > div > h5 {
+    top: -20px;
+    font-size: 9px;
+  }
+
+  .inputDiv > div > input {
+    top: -0.75rem;
+    font-size: 1rem;
+  }
+}

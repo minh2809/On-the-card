@@ -1,0 +1,118 @@
+.footerContainer {
+  padding: 35px;
+  z-index: 2;
+  padding-bottom: 90px !important;
+  padding-top: 25px !important;
+  margin-top: -150px !important;
+}
+
+.preview {
+  margin-top: -110px !important;
+}
+
+.logoContainer {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.logo {
+  position: relative;
+  width: 235px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.logoText {
+  position: relative;
+  font-size: 1.25rem;
+}
+
+.socialMedia {
+  position: relative;
+  margin: 10px 0;
+  z-index: 2;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.socialMedia a {
+  position: relative;
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+  z-index: 2;
+}
+
+.socialMediaWhite {
+  position: relative;
+  margin: 10px 0;
+  z-index: 2;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.socialMediaWhite a {
+  position: relative;
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+  z-index: 2;
+}
+
+.leading {
+  margin: 3vh auto;
+  font-weight: 620;
+  font-size: 1.1rem;
+}
+
+.break {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .footerContainer {
+    margin-top: -120px !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footerContainer {
+    margin-top: -80px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footerContainer {
+    margin-top: -25px !important;
+    padding-top: 45px !important;
+    padding-bottom: 65px !important;
+  }
+
+  .logo {
+    width: 195px;
+  }
+
+  .logoText {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .leading {
+    font-size: 0.8rem;
+  }
+  .break {
+    display: inline;
+  }
+
+  .footerContainer {
+    padding-bottom: 110px !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+}

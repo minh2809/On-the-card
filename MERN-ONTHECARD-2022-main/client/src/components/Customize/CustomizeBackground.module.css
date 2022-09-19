@@ -1,0 +1,201 @@
+.root {
+  /* background-color: #f9f9f9; */
+  height: 100%;
+}
+.customizeArea {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.title {
+  margin-bottom: 30px;
+}
+.title span {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* .gridList {
+    width: 500;
+    height: 450; 
+} */
+.optionBox {
+  background: #fff;
+  padding: 12px 12px 10px;
+  border-radius: 12px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+.label {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+  margin: 0 0 15px 10px;
+}
+.colorCircleArea {
+  width: 30px;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 2px;
+}
+.colorCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.colorStyleOutline {
+  margin: 0 auto;
+  max-width: 42px;
+  border: 1px solid #c7c7c7;
+  padding: 5px;
+  border-radius: 5px;
+}
+.colorStyleInline {
+  margin: 0 auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+}
+.styleTriangle {
+  height: 40px;
+  border-radius: 3px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #fff;
+}
+.styleText {
+  text-align: center;
+  font-size: 0.69rem;
+}
+.mobileView,
+.coverImage {
+  position: relative;
+  border: 3px solid #afafaf;
+  max-width: 110px;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.coverImage {
+  max-width: 280px !important;
+  height: 150px;
+}
+
+.coverImage img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.mobileViewOpacityBackground {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.mobileViewBackground {
+  height: 100%;
+}
+
+.ImageResponsive {
+  max-width: 100%;
+  height: 100%;
+  width: fit-content;
+  object-fit: cover;
+}
+
+.mobileViewButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mobileViewButtonArea {
+  margin-bottom: 10px;
+}
+.btnAddImage {
+  font-weight: bold;
+  background: rgba(41, 96, 237, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btnAddImage:hover {
+  background-color: #d3d3da;
+}
+
+.IconPlus {
+  margin-right: 5px;
+}
+.IconPlus,
+.IconTrash {
+  width: 16px;
+}
+
+.btnReplaceImage {
+  font-weight: bold;
+  color: #86888f;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #e5e5ef;
+  padding: 9px !important;
+  padding-bottom: 3px !important;
+  border-radius: 5px;
+}
+
+.btnReplaceImage:hover {
+  background-color: #d3d3da;
+}
+
+.saveButtonArea {
+  width: 70%;
+  margin: 0 auto;
+}
+.uploadedImageInput {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .root {
+    margin-bottom: -1%;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .colorCircleArea {
+    width: 20px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 2px;
+  }
+  .colorCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 350px) {
+  .colorCircleArea {
+    width: 12px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 2px;
+  }
+  .colorCircle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}

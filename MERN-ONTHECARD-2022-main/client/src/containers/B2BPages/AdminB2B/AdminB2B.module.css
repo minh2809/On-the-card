@@ -1,0 +1,118 @@
+.homeScreenStyle {
+  position: relative;
+  text-align: center;
+  z-index: 50;
+  /* background-color: #150d1c; */
+  min-height: 103.5vh;
+  margin-top: -3.5vh;
+  padding-bottom: 3.5vh;
+}
+
+.brandStyle {
+  color: #0275d8;
+}
+
+.homeScreenStyle h3 {
+  font-size: 1.75rem;
+  /* color: rgb(240, 238, 238); */
+  padding-top: 5vh;
+}
+
+.homeScreenStyle h4 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  /* color: #51d7fd; */
+  color: #150d1c;
+}
+
+.buttonStyle {
+  margin-top: 0vh !important;
+}
+
+.errorStyle {
+  display: block;
+  color: rgb(206, 102, 102);
+  margin-top: 0vh;
+  margin-bottom: 1.2vh;
+}
+
+.errorStyleHide {
+  display: none;
+}
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  left: 15%;
+}
+
+@media screen and (max-width: 1100px) {
+  .cardContainer {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cardContainer {
+    flex-direction: column;
+    width: 100%;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeScreenStyle {
+    position: relative;
+    text-align: center;
+    z-index: 50;
+    min-height: 102.5vh;
+    margin-top: -2.5vh;
+  }
+
+  .homeScreenStyle h3 {
+    font-size: 1.25rem;
+  }
+
+  .homeScreenStyle h4 {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    font-size: 0.95rem;
+  }
+}
+
+.logout {
+  position: relative;
+  background-color: black;
+  width: 150px;
+  height: 20px;
+  color: white;
+  margin: 35px auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #282828;
+}
+
+@media screen and (max-height: 600px) {
+  .homeScreenStyle {
+    position: relative;
+    text-align: center;
+    z-index: 50;
+  }
+}
+
+@media screen and (max-height: 321px) {
+  .homeScreenStyle {
+    position: relative;
+    text-align: center;
+    z-index: 50;
+  }
+}

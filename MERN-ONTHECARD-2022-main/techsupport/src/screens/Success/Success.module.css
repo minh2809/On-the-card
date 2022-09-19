@@ -1,0 +1,60 @@
+.successPage {
+  margin-top: 25vh;
+  text-align: center;
+}
+
+.successPage a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.successPage p {
+  text-decoration: none;
+  color: black;
+  margin: 1vh auto;
+  font-weight: 800;
+}
+
+.successPage span {
+  color: #0275d8;
+  cursor: pointer;
+}
+
+.successPage span:hover {
+  color: blue;
+}
+
+.headerText {
+  color: rgb(46, 206, 46);
+  font-weight: 800;
+}
+
+.successText {
+  width: 30vw;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.headerH4 {
+  color: blue;
+  font-weight: 800;
+  margin: 1vh auto !important;
+}
+
+.buttonContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  left: 35vw;
+}
+
+@media screen and (max-width: 600px) {
+  .successText {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+}

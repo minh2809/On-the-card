@@ -1,0 +1,18 @@
+Yêu cầu: 
+
+1, Cần những icon sau và file ảnh trong folder này (icon.png, Icon 2.png, image file.png)
+2, Có thiết kế bản Desktop không ?
+3, Bên này nhân viên có đăng nhập để thêm đường link gì không ? Nếu có thêm đường link thì design đường link trông thế nào
+4, Bên này không có trang doanh nghiệp và trang cửa hàng đúng không ?
+
+Nhắn gấp để t làm nha
+
+
+4 yêu cầu của Trung t xin phép phản hồi thông tin như sau:
+
+Yêu cầu 1: t đã xin được và đã gửi Trung file vector của các icon
+Yêu cầu 2: Petro Việt Nam không cần làm giao diện desktop
+Yêu cầu 3: Về giao diện bên trong sẽ thực hiện sau khi thực hiện giao diện bên ngoài theo yêu cầu của họ (đơn giản, thân thiện để khi cần họ dễ chỉnh sửa)
+Yêu cầu 4: Petro Việt Nam không làm trang doanh nghiệp + cửa hàng
+
+Mã Màu: #FBAE17

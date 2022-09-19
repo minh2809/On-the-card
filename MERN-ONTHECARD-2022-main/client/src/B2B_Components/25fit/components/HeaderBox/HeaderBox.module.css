@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.HeaderBox {
+  position: relative;
+  display: block;
+  margin-top: -10px;
+}
+
+.HeaderBoxImg {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  border: 8px solid #ee5385;
+}
+
+.ButtonBar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  left: 34%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.bioContainer {
+  padding: 0px 0px;
+}
+
+.bio {
+  font-size: 1rem;
+  padding: 0px 0;
+  margin: 0 auto;
+  font-weight: 600;
+  color: black;
+  width: 25vw;
+}
+
+.fullNameContainer {
+  font-weight: 600;
+  font-size: 28px;
+  border-top: 0.5px solid #6bc8cc;
+  border-bottom: 0.5px solid #6bc8cc;
+  width: fit-content;
+  margin: 0px auto;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #ee5385;
+}
+
+.fullNameContainer p {
+  margin: 15px auto;
+  margin-bottom: 10px;
+}

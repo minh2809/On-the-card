@@ -1,0 +1,136 @@
+.HeaderBox {
+  position: relative;
+  display: block;
+  margin-top: 25px;
+}
+
+.bgColorWhite {
+  background-color: white;
+}
+
+.sharePageWhite,
+.sharePageBlack,
+.sharePageWhiteNoBgImg {
+  position: absolute;
+  right: 105px;
+  top: 0px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.sharePageWhite {
+  color: rgb(226, 226, 226);
+}
+
+.sharePageWhite:hover {
+  color: #0275d8;
+}
+
+.sharePageBlack,
+.sharePageWhiteNoBgImg {
+  color: black;
+}
+
+.sharePageWhiteNoBgImg {
+  top: -80px;
+  color: #0275d8;
+}
+
+.sharePageBlack:hover,
+.sharePageWhiteNoBgImg:hover {
+  color: #0275d8;
+}
+
+.HeaderBoxImg,
+.HeaderBoxImgNoBgImg {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.HeaderBoxImgNoBgImg {
+  height: 150px;
+  width: 150px;
+  border: 5px solid rgb(255, 255, 255);
+  margin-top: -90px;
+}
+
+.viewPageHeaderImg {
+  position: relative;
+  margin-top: -10%;
+}
+
+.ButtonBar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  left: 34%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.ButtonBar a {
+  margin: 5px 15px;
+  color: #2e5077;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  padding-top: 2px;
+}
+
+.ButtonBar span {
+  font-size: 1.5rem;
+  height: 1rem;
+}
+
+.ButtonBarImg {
+  height: 22.5px;
+  padding-right: 10px;
+}
+
+.hideBtn {
+  display: none;
+}
+
+.bioContainer {
+  padding: 10px 0px;
+}
+
+.bio {
+  font-size: 1rem;
+  padding: 0px 0;
+  margin: 0 auto;
+  font-weight: 600;
+  width: 20vw;
+}
+
+@media screen and (max-width: 1025px) {
+  .HeaderBox {
+    margin-top: 0vh;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+
+  .sharePageWhite,
+  .sharePageBlack {
+    right: 115px;
+    top: -200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ButtonBar {
+    width: 40%;
+    left: 28%;
+  }
+
+  .bio {
+    font-size: 1.1rem;
+  }
+}

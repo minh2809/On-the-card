@@ -1,0 +1,126 @@
+.root {
+  position: relative;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formInput {
+  width: 250px;
+  padding: 20px;
+  position: relative;
+}
+.formInput input {
+  display: none;
+}
+
+.preview {
+  text-align: center;
+}
+
+.userAvatar {
+  height: 175px;
+  width: 175px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer; 
+}
+
+.landingImg {
+  position: relative;
+  margin-left: -25px;
+  height: 150px;
+  width: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+  cursor: pointer; 
+}
+
+.imageUploadLabel {
+  background: #edf2ff;
+  padding: 10px 10px 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  right: 25%;
+  cursor: pointer;
+}
+
+.imageUploadLabelProduct {
+  background: #edf2ff;
+  padding: 10px 10px 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 75%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.IconCamera {
+  width: 20px;
+  height: 17px;
+}
+
+@media screen and (min-width: 2300px) {
+  /*
+    .formInput label {
+    right: 27.5% !important;
+  }
+  */
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2299px) {
+  /*
+    .formInput label {
+    right: 27.5% !important;
+  }
+  */
+}
+
+@media screen and (max-width: 1024px) {
+  /*
+    .formInput label {
+    top: 185px;
+    left: 29% !important;
+  }
+  */
+}
+
+@media screen and (max-width: 1000px) {
+  /*
+    .formInput label {
+    top: 30.5%;
+    left: 56% !important;
+  }
+  */
+}
+
+@media screen and (max-width: 767px) {
+  /*
+    .formInput label {
+    top: 27.5%;
+    left: 60.5% !important;
+  }
+  */
+  .formInput {
+    position: relative;
+    padding-top: 0px;
+    margin-top: 30px;
+  }
+
+  .landingImg {
+    margin-left: -20px;
+    height: 150px;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  /*
+    .formInput label {
+    top: 30.5%;
+    left: 62.5% !important;
+  }
+  */
+}

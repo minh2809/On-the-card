@@ -1,0 +1,18 @@
+.cardStyling {
+  margin: 3vh auto;
+  text-align: start;
+  height: 20vh;
+  cursor: pointer;
+  border-radius: 12px !important;
+}
+
+.cardStyling:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+@media screen and (max-width: 600px) {
+  .cardStyling {
+    margin: 0vh auto;
+    height: 15vh;
+  }
+}

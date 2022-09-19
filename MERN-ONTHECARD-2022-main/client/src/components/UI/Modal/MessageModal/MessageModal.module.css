@@ -1,0 +1,253 @@
+.Modal {
+  position: fixed;
+  display: block;
+  z-index: 200;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: white;
+  padding-bottom: 40px;
+  text-align: center;
+  box-sizing: border-box;
+
+  top: 15vh;
+  left: 30vw;
+  width: 40vw;
+  height: 550px;
+
+  transition: all 0.5s linear;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+.PurchaseForm {
+  top: 10vh !important;
+  height: auto !important;
+}
+
+.input {
+  position: relative;
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.textArea {
+  position: relative;
+  height: 85px !important;
+  width: 91.5% !important;
+  display: block;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin: 1vh auto;
+  margin-bottom: 0vh;
+  resize: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.textArea:focus {
+  outline: none !important;
+  background: rgba(41, 96, 237, 0.05);
+  border: 1px solid #2960ed;
+  border-radius: 5px;
+}
+
+.address {
+  height: 35px !important;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.checkBoxArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin: 10px auto;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.divide {
+  height: 35px;
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 0px;
+  top: auto;
+  bottom: 0vh;
+  margin: 15px 25px;
+  cursor: pointer;
+  color: black;
+}
+
+.closeButton:hover {
+  color: #2960ed;
+}
+
+@media screen and (min-width: 1800px) {
+  .Modal {
+    height: 575px;
+    left: 37vw;
+    width: 26vw;
+  }
+
+  .closeButton {
+    margin: 15px 25px;
+  }
+
+  .textArea {
+    width: 92% !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Modal {
+    height: 575px;
+    left: 25vw;
+    width: 50vw;
+  }
+
+  .closeButton {
+    margin: 15px 1.75vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Modal {
+    height: 575px;
+    left: 15vw;
+    width: 70vw;
+  }
+
+  .closeButton {
+    margin: 15px 1.75vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Modal {
+    display: block;
+    top: 10vh;
+    left: 5vw;
+    width: 90vw;
+    height: 525px;
+  }
+
+  .PurchaseForm {
+    top: 7.5vh !important;
+    height: auto !important;
+  }
+
+  .output {
+    height: 56vw;
+    width: 95vw;
+  }
+
+  .textArea {
+    font-size: 0.75rem;
+    width: 84% !important;
+    padding: 15px 20px;
+  }
+
+  .closeButton {
+    right: 10px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .checkBoxArea {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .Modal {
+    display: block;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+/*
+      Animation Effect
+  */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(startYposition);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(endYposition);
+  }
+}

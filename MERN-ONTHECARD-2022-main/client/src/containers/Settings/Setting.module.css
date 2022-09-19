@@ -1,0 +1,110 @@
+/*
+  ***********************************************
+  ***********************************************
+
+  STYLINGS FOR Settings.js
+
+  ***********************************************
+  ***********************************************
+*/
+
+.wrapper {
+  position: relative;
+  min-height: 100vh !important;
+}
+
+.settingContainer {
+  position: relative;
+  min-height: 50vh;
+  width: 80vw;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0px 30px;
+
+  -moz-box-shadow: 0 0 15px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+}
+
+.title {
+  text-align: start;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.mainDivider {
+  text-align: start;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.returnButton {
+  position: relative;
+  margin-top: 12.5vh;
+  margin-bottom: 25px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 65vw;
+}
+
+.returnButton:hover {
+  opacity: 0.8;
+}
+
+/*
+  ***********************************************
+  ***********************************************
+
+  STYLINGS FOR YourPage.js and YourAccount.js
+
+  ***********************************************
+  ***********************************************
+*/
+
+.yourPageWrapper,
+.yourAccountWrapper {
+  padding: 0px 20px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.yourPageAccountTitle {
+  text-align: start;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.yourPageOptionsContainer {
+  text-align: start;
+}
+
+.optionDivider {
+  text-align: start;
+  border: 0.1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  margin: 2px auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .yourPageWrapper,
+  .yourAccountWrapper {
+    padding: 0px 0px;
+    display: inline;
+  }
+
+  .returnButton {
+    margin-top: 11.5vh;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    border-radius: 8px;
+    margin-right: 0vw;
+  }
+}

@@ -1,0 +1,238 @@
+.loginContent {
+  position: relative;
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 500px;
+  margin: 5% auto;
+  padding: 32px;
+  padding-top: 16px;
+}
+
+.pageTitle {
+  font-size: 2.25rem;
+  font-weight: 800 !important;
+  margin: 6vh auto;
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.breakLine {
+  display: block;
+}
+
+.inputWrapper {
+  margin-bottom: 20px;
+}
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.labelWrapper {
+  display: flex;
+  align-items: center;
+}
+.label {
+  color: #42444a;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 4px;
+}
+.passwordBottomText {
+  font-size: 14px;
+  color: #42444a;
+  float: right;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.loginContent img {
+  position: relative;
+}
+
+.loginContent h2 {
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.loginContent .titleUp {
+  margin-top: -0.5rem;
+}
+
+.loginContent .input-div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 3px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.loginContent .input-div.one {
+  margin-top: 0;
+}
+
+.signInButtonWrapper {
+  margin: 2vh auto;
+}
+.signInButton,
+.signInFacebookButton,
+.signInGoogleButton {
+  margin-top: 28px !important;
+  height: 48px;
+  font-weight: 700 !important;
+  border-radius: 6px !important;
+}
+
+.signInFacebookButton {
+  background: #3b5998 !important;
+  margin-top: 0;
+  font-size: 0.85rem !important;
+}
+
+.signInGoogleButton {
+  background: #fff !important;
+  margin-bottom: 28px !important;
+}
+
+.iconGoogle {
+  margin-right: 10px !important;
+  height: 25px !important;
+}
+
+.iconFacebook {
+  margin-right: 10px !important;
+  height: 25px !important;
+}
+
+.hoverTextArea {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right !important;
+}
+
+.hoverTextAreaSignUp {
+  display: block;
+}
+
+.hoverDescriptionSignUp {
+  display: flex;
+  width: 100%;
+  font-size: 1rem !important;
+  color: #000000;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoverDescription {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .loginContent {
+    top: 0;
+    margin-top: 0;
+  }
+  .pageTitle {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .loginContent {
+    /* left: -12%; */
+    justify-content: center;
+    padding-top: 40vh;
+  }
+
+  .loginContent h2 {
+    /* left: 22%; */
+    font-size: 2rem;
+    margin: 8px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .pageTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0vh auto;
+    margin-bottom: 4vh;
+  }
+
+  .breakLine {
+    display: block;
+  }
+
+  .loginContent {
+    margin-top: -25vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .loginContent {
+    justify-content: center;
+    padding-top: 32px;
+  }
+
+  .loginContent h2 {
+    font-size: 1.2rem;
+    left: 22.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .loginContent {
+    width: auto;
+    margin-top: 15vh;
+  }
+
+  .hoverDescriptionSignUp {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .loginContent {
+    /* left: -40%; */
+    justify-content: center;
+  }
+  .loginContent h2 {
+    font-size: 1.2rem;
+    /* left: 34%; */
+  }
+
+  .loginContent img {
+    position: relative;
+    /* left: -1%; */
+    height: 80px;
+  }
+
+  .loginContent p {
+    position: relative;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .title,
+  .titleUp {
+    font-size: 0.75rem;
+  }
+}

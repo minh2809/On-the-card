@@ -1,0 +1,41 @@
+.pageStyling {
+  position: relative;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
+}
+
+.pageStyling h1 {
+  font-size: 1.85rem;
+}
+
+.errorTextHide {
+  display: none;
+}
+
+.errorTextShow {
+  display: block;
+  font-size: 0.85rem;
+  color: rgb(216, 53, 53);
+}
+
+.TextBox {
+  width: 50vw;
+}
+
+.inputStyle {
+  font-weight: 800 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .TextBox {
+    width: 80vw;
+  }
+  .pageStyling h1 {
+    font-size: 1.5rem;
+  }
+}

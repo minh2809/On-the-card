@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://onthecard.me/</loc> </url>
+<url> <loc>https://onthecard.me/profile/edit</loc> </url>
+<url> <loc>https://onthecard.me/profile/B2BAdmin</loc> </url>
+<url> <loc>https://onthecard.me/profile</loc> </url>
+<url> <loc>https://onthecard.me/fetch/:id</loc> </url>
+<url> <loc>https://onthecard.me/signin</loc> </url>
+<url> <loc>https://onthecard.me/retrieve</loc> </url>
+<url> <loc>https://onthecard.me/admin/serialnumber</loc> </url>
+<url> <loc>https://onthecard.me/admin/serialnumber/mainactivity</loc> </url>
+<url> <loc>https://onthecard.me/:id</loc> </url>
+<url> <loc>https://onthecard.me/:id/companyPage</loc> </url>
+<url> <loc>https://onthecard.me/:id/storePage</loc> </url>
+</urlset>

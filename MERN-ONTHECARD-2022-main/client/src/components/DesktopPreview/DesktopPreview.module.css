@@ -1,0 +1,109 @@
+.SocialMediaList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: wrap;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.accountUrl {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.67;
+  color: rgb(0, 102, 176);
+  margin: 0px;
+  margin-right: 22px !important;
+}
+
+.desktopPreviewArea {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.desktopBackgroundImage {
+  width: 410px;
+  height: 710px;
+  margin: 0 auto;
+  border-radius: 26px;
+}
+
+.desktopPreviewOpacityBg {
+  max-width: 400px;
+  height: 702px;
+  position: absolute;
+  margin: 0 auto;
+  opacity: 0.5;
+  left: 0;
+  right: 0;
+  top: 37px;
+  bottom: 0;
+  padding: 0 30px;
+}
+
+.previewPhoneArea {
+  max-width: 400px;
+  height: 700px;
+  border: 8px solid #42444a;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 auto;
+  border-image: initial;
+  overflow: hidden;
+}
+
+.desktopPreview {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding-right: 17px;
+}
+
+.downloadButtonWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.AddLinkLabel {
+  text-align: center;
+  display: block;
+  width: 500px;
+  margin: 0 auto 20px !important;
+}
+
+.imageResponsive {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.socialLinkBoxWrapper {
+  padding: 0 15px;
+  padding-bottom: 55px;
+  padding-right: 12px;
+}
+
+.footer {
+  margin-top: 10vh;
+  width: 105%;
+  background-color: rgb(255, 255, 255);
+}
+
+.productText {
+  position: relative;
+  margin-bottom: 35px;
+  font-size: 1.35rem;
+  color: rgb(82, 82, 82);
+}
+
+@media screen and (max-width: 1025px) {
+  .footer {
+    width: 100%;
+  }
+}

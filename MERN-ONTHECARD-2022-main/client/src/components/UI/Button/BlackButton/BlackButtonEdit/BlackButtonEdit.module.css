@@ -1,0 +1,55 @@
+.button {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  background-color: white;
+  border: solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  padding: 3.5px;
+  padding-left: 10px;
+  padding-right: 3px;
+  font-size: 0.75rem;
+  line-height: 19px;
+  margin-left: 5%;
+  margin-top: 0.25%;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover,
+.button.active {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: solid 2px #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.button i {
+  padding-right: 0.25rem;
+}
+
+.buttonRed:hover,
+.buttonRed.active {
+  background: #dc143c;
+}
+
+@media screen and (max-width: 321px) {
+  .button {
+    font-size: 0.25rem;
+    padding: 1.5px;
+    padding-left: 7.5px;
+    padding-right: 0.5px;
+  }
+}

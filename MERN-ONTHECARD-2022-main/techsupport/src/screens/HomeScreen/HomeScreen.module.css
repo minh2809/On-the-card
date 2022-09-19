@@ -1,0 +1,18 @@
+.homeScreenStyle {
+  margin: 30vh auto;
+  text-align: center;
+}
+
+.buttonStyle {
+  margin-top: 2vh !important;
+}
+
+.errorStyle {
+  display: block;
+  color: brown;
+  margin-bottom: 0vh;
+}
+
+.errorStyleHide {
+  display: none;
+}

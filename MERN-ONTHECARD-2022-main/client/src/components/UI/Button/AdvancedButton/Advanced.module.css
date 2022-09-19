@@ -1,0 +1,45 @@
+.buttonContainer {
+  width: 70%;
+  background: black;
+  border: 1px solid #e5e5ef;
+  border-radius: 57px;
+  font-size: 0.9rem;
+  padding: 12px 0vw;
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  animation: glowGrey 1s infinite alternate;
+}
+
+@keyframes glowGrey {
+  from {
+    box-shadow: 0 0 6px -6px grey;
+  }
+  to {
+    box-shadow: 0 0 6px 6px grey;
+  }
+}
+
+.buttonContainer:focus {
+  outline: none !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .buttonContainer {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .buttonContainer {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .buttonContainer {
+    width: 75%;
+    font-size: 0.8rem;
+  }
+}

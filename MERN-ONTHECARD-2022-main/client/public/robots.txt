@@ -1,0 +1,22 @@
+
+User-agent:*
+Disallow:https://onthecard.me/thohuynh95
+Disallow:https://onthecard.me/thaovtl96
+Disallow: https://onthecard.me/daisy
+Disallow: https://onthecard.me/lytanphat
+Disallow:https://onthecard.me/namkang
+Disallow:https://onthecard.me/ltstore1
+Disallow:https://onthecard.me/hieubk
+Disallow:https://onthecard.me/nguyensydung
+Disallow:https://onthecard.me/lucky1358
+Allow: https://onthecard.me/
+Allow: https://onthecard.me/signin
+Disallow:https://onthecard.me/profile/edit
+Disallow:https://onthecard.me/profile/B2BAdmin
+Disallow:https://onthecard.me/profile
+Disallow:https://onthecard.me/fetch/:id
+Disallow:https://onthecard.me/retrieve
+Disallow:https://onthecard.me/admin/serialnumber
+Disallow:https://onthecard.me/admin/serialnumber/mainactivity
+Disallow:https://onthecard.me/:id
+Sitemap: https://onthecard.me/sitemap.xml

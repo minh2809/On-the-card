@@ -1,0 +1,19 @@
+.zaloViber {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  margin-top: 32.5px;
+  width: 30vw;
+}
+
+.zaloViber img {
+  height: 45px;
+  cursor: pointer !important;
+}
+
+@media screen and (max-width: 767px) {
+  .zaloViber {
+    width: 95vw;
+  }
+}

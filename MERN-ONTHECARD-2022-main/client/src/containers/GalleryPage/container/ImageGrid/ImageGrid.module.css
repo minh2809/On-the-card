@@ -1,0 +1,47 @@
+.imageGridContainer {
+  position: relative;
+  margin: 0px auto;
+  width: 60vw;
+  height: fit-content;
+}
+
+.imageGridLine {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-top: 1px dotted var(--lightGrey);
+}
+
+.preview {
+  position: relative;
+  width: 400px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1800px) {
+  .imageGridContainer {
+    width: 39vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imageGridContainer {
+    width: 72vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imageGridContainer {
+    width: 100vw;
+    margin-top: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+}

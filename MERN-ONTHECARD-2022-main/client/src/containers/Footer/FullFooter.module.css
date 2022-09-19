@@ -1,0 +1,54 @@
+.footerContainer {
+  position: relative;
+  padding: 35px;
+  background-color: white;
+  margin-top: -2vh;
+}
+
+.logoContainer {
+  cursor: pointer;
+}
+
+.socialMedia {
+  position: relative;
+  margin: 10px 0;
+  z-index: 2;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.socialMedia a {
+  position: relative;
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+  z-index: 2;
+}
+
+.leading {
+  margin: 3vh auto;
+  font-weight: 620;
+  font-size: 1.1rem;
+}
+
+.break {
+  display: none;
+}
+
+.footerContainer h3 {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .leading {
+    font-size: 0.8rem;
+  }
+  .break {
+    display: inline;
+  }
+  .footerContainer {
+    padding-bottom: 85px;
+  }
+}

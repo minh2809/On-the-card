@@ -1,0 +1,147 @@
+.container,
+.permitContainer {
+  position: relative;
+  margin: 12px;
+  min-height: 285px;
+
+  height: fit-content;
+  width: 300px;
+  border-radius: 20px;
+  margin: 12px auto;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.permitContainer {
+  height: 315px !important;
+}
+
+.container:hover {
+  opacity: 0.8;
+}
+
+.index {
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.imageContainer {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 0px auto;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: black !important;
+  border-radius: 50%;
+}
+
+.badgeContainer {
+  margin: 10px auto;
+  margin-top: 15px;
+  display: flex;
+}
+
+.badge {
+  font-weight: 600;
+  padding: 5px 20px;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.superAdminBadge {
+  background-color: #d9534f;
+  color: white;
+}
+
+.adminBadge {
+  background-color: #0275d8;
+  color: white;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: 0px auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.userNameContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: 0px auto;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: -20px;
+}
+
+.grantBtn {
+  position: relative;
+  cursor: pointer;
+  width: 60%;
+  left: 20%;
+  color: white;
+  padding: 8px 0px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+
+.redBtn {
+  background-color: #e02c18;
+}
+
+.redBtn:hover {
+  background-color: #d9534f;
+}
+
+.blueBtn {
+  background-color: black;
+}
+
+.blueBtn:hover {
+  background-color: #282828;
+}
+
+.superAdmin {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .container,
+  .permitContainer {
+    max-width: 325px;
+  }
+
+  .permitContainer {
+    height: fit-content !important;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 130px;
+  }
+
+  .grantBtn {
+    width: 60%;
+    left: 20%;
+    margin-bottom: 20px;
+  }
+}

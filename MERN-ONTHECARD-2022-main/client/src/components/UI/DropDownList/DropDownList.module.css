@@ -1,0 +1,277 @@
+.container {
+  margin-top: -5%;
+  padding: 5vh 0;
+  padding-bottom: 0vh;
+}
+
+/*
+
+  .newFeature {
+  position: absolute;
+  background-color: #e74c3c;
+  color: white;
+  font-weight: 600;
+  padding: 2.5px 12.5px;
+  border-radius: 5px;
+  right: 35px;
+  top: 25px;
+  font-size: 0.85rem;
+}
+
+
+*/
+
+.newFeature {
+  position: absolute;
+  background-color: #e74c3c;
+  color: white;
+  font-weight: 600;
+  padding: 2.5px 12.5px;
+  border-radius: 5px;
+  right: 35px;
+  font-size: 0.85rem;
+  top: 35%;
+}
+
+.selectBox {
+  position: relative;
+  display: flex;
+  width: 80%;
+  left: 10%;
+  flex-direction: column;
+}
+
+.selectBox .optionsContainer {
+  background: #ffffff;
+  color: #42444a;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px auto;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  overflow: hidden;
+  order: 1;
+}
+
+.selected {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #000;
+  position: relative;
+  order: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  backdrop-filter: blur(21px);
+}
+
+.selected::after {
+  content: "";
+  background: url("../../../assets/icons/icon-down-blue.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  right: 10px;
+  top: 50%;
+
+  transition: all 0.4s;
+}
+
+.selectedSocialIconWrapper {
+  position: absolute;
+  left: 5%;
+  top: 10px;
+  background: #f6f6f6;
+  padding: 12px 12px 7px;
+  border-radius: 50%;
+}
+
+.selectedSocialIcon {
+  width: 30px;
+}
+
+.selectedBankWrapper {
+  position: absolute;
+  display: flex;
+}
+
+.selectedBank {
+  width: 150px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.selectedBankCo {
+  width: auto;
+  height: 130px;
+  object-fit: contain;
+}
+
+.optionsContainer {
+  width: 99.5% !important;
+}
+
+.selectBox .optionsContainer.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+  border: 1px solid #dfdede;
+  border-radius: 10px;
+  margin-top: -2px;
+}
+
+.selectBox .optionsContainer.active::-webkit-scrollbar {
+  width: 0px;
+}
+
+.selectBox .optionsContainer.active + .selected::after {
+  transform: rotateX(180deg);
+}
+
+.selectBox .optionsContainer::-webkit-scrollbar {
+  width: 8px;
+  background: #e4e4e4;
+  border-radius: 0 8px 8px 0;
+}
+
+.selectBox .optionsContainer::-webkit-scrollbar-thumb {
+  background: #999999;
+  border-radius: 0 8px 8px 0;
+}
+
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+}
+
+.selectBox .option {
+  padding: 25px 70px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+}
+
+.selectBox .optionBank {
+  padding: 35px 70px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectBox .option:hover,
+.selectBox .optionBank:hover {
+  background: rgba(41, 96, 237, 0.05);
+}
+.socialIcon {
+  position: absolute;
+  width: 30px;
+  left: 12%;
+  margin-top: -0.5vh;
+}
+
+.bankIconME {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  object-fit: contain;
+  padding: 1vh auto;
+}
+
+.bankIconCO {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.bankIconSquare {
+  position: absolute;
+  object-fit: contain;
+  height: 110%;
+}
+
+.selectBox label {
+  cursor: pointer;
+}
+
+.selectBox .option .radio {
+  display: none;
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    margin-top: -8.5%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    padding-top: 1vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-top: 0vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: -5%;
+  }
+
+  .selectBox .optionsContainer {
+    font-size: 0.8rem;
+  }
+
+  .socialIcon {
+    width: 25px;
+    left: 10%;
+  }
+
+  .selected {
+    height: 70px;
+  }
+
+  .newFeature {
+    padding: 3px 10px;
+    right: 10px;
+    top: 35%;
+    font-size: 0.75rem;
+  }
+
+  .bankIconCO {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .container {
+    margin-top: -30%;
+  }
+
+  .selected::after {
+    width: 25px;
+    right: 1px;
+    top: 10px;
+  }
+
+  .selected {
+    padding-right: 30px;
+  }
+}

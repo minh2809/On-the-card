@@ -1,0 +1,44 @@
+.dismissStyle {
+  position: relative;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  width: fit-content;
+  margin: 0vh auto;
+  margin-top: 6vh;
+  padding: 1vh 5vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imgModal {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .dismissStyle {
+    padding: 1vh 12vw;
+  }
+
+  .imgModal {
+    display: block;
+    margin-top: 0vh !important;
+    padding: 0.5vh 35px;
+    padding-top: 12.5px;
+    margin: 0vh 1vw;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .imgModal {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .imgModal {
+    padding-top: 11.5px;
+  }
+}

@@ -1,0 +1,49 @@
+.downloadButton,
+.messageButton {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .button {
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .separate {
+    width: 5px;
+  }
+
+  .downloadButton {
+    background: black;
+    color: white;
+    border: 1px solid rgb(121, 121, 121);
+  }
+
+  .contactButton {
+    /* Button Style for Username: tiktok only */
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  .messageButton {
+    background: white;
+    color: black;
+    border: 1px solid rgb(110, 110, 110);
+    animation: glowGrey 1s infinite alternate;
+  }
+}
+
+@keyframes glowGrey {
+  from {
+    box-shadow: 0 0 9px -9px grey;
+  }
+  to {
+    box-shadow: 0 0 9px 9px grey;
+  }
+}

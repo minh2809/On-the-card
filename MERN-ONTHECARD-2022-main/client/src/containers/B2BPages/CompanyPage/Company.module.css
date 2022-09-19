@@ -1,0 +1,67 @@
+.MainPage {
+  width: 100%;
+  height: wrap;
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+
+.divider {
+  width: 1vw;
+}
+
+.buttonContainer {
+  position: relative;
+  width: 27.5vw;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.b2bTab {
+  height: 70px;
+  margin-top: -75px;
+}
+
+@media screen and (min-width: 1800px) {
+  .MainPage {
+    padding-top: 8%;
+  }
+
+  .buttonContainer {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .MainPage {
+    padding-top: 5vh;
+    margin-top: 0%;
+  }
+
+  .buttonContainer {
+    width: 37.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .buttonContainer {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buttonContainer {
+    position: relative;
+    width: 82vw;
+    margin: 2vh auto;
+  }
+
+  .divider {
+    width: 5vw;
+  }
+
+  .b2bTab {
+    height: 55px;
+    margin-top: -40px;
+  }
+}

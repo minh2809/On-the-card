@@ -1,0 +1,111 @@
+.body {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 120vh;
+  top: -15vh;
+  z-index: 5;
+  background: #222;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.body .circleLoad {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fff;
+  border-radius: 500%;
+  position: relative;
+  -webkit-animation: rotation 2s linear infinite;
+  animation: rotation 2s linear infinite;
+}
+
+.body h1 {
+  position: relative;
+  color: white;
+  font-size: 17.5rem;
+  font-weight: 800;
+  bottom: 0.65vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+body .circleLoad .innerLoad {
+  width: 100px;
+  height: 100px;
+  background: #222;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 -75px 0 -35px #222;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -webkit-animation: switch 8s ease-in-out infinite;
+  animation: switch 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body h1 {
+    font-size: 10rem;
+    bottom: 0vh;
+  }
+
+  .body .circleLoad {
+    width: 120px;
+    height: 120px;
+  }
+
+  body .circleLoad .innerLoad {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 0 -45px 0 -20px #222;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .body h1 {
+    font-size: 10.5rem;
+  }
+
+  .body .circleLoad {
+    width: 180px;
+    height: 180px;
+  }
+
+  body .circleLoad .innerLoad {
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    box-shadow: 0 -72px 0 -45px #222;
+  }
+}

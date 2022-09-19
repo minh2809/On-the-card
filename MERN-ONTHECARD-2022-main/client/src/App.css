@@ -1,0 +1,53 @@
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+.App {
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.greyBG {
+  position: relative;
+  /* background: #f9f8f8 !important; */
+}
+
+.appOpacityBackground {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.locked {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.2 !important;
+}
+
+.imageResponsive {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,189 @@
+.grow {
+  flex-grow: 1;
+}
+.appBar {
+  background-color: #fff !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+.menuButton {
+  padding: 1vh 0vw;
+  margin-right: 16px;
+  cursor: pointer;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+  font-weight: 900 !important;
+  font-family: Helvetica, sans-serif;
+}
+
+.logo {
+  position: relative;
+  width: 65px;
+  z-index: 2;
+  transform: rotate(0);
+}
+
+.logoText {
+  font-size: 1rem;
+  font-weight: 800 !important;
+}
+
+.mainPageTab {
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.67;
+  margin: 0;
+}
+.analyticPageTab {
+  margin-left: 16;
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.67;
+  margin: 0;
+}
+.sectionDesktop {
+  display: flex;
+}
+.accountIconArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(231, 231, 231);
+  border-radius: 12px;
+  padding: 5px 15.5px;
+  margin-right: -10px !important;
+}
+
+.accountIconArea:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.accountIconArea i {
+  margin-left: 9px;
+  color: black;
+}
+
+.userAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.accountIconLabel {
+  color: black;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.67;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.renderMenu {
+  position: absolute !important;
+  top: 49.5px !important;
+  left: 20px !important;
+}
+
+.menuItem {
+  position: relative !important;
+  color: black !important;
+}
+.iconLogout {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.flagEngland {
+  height: 28px;
+  padding-right: 5px;
+}
+
+.flagVietnam {
+  height: 28px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    width: 50px;
+  }
+  .accountIconLabel {
+    font-size: 0.7rem;
+  }
+  .logoText {
+    font-size: 0.85rem;
+    font-weight: 800 !important;
+  }
+  .renderMenu {
+    top: 5vh !important;
+  }
+
+  .menuItem {
+    font-size: 0.75rem;
+  }
+}
+
+.notiNumber {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #d9534f;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+.lock {
+  background-color: white !important;
+  color: black;
+}
+
+.optionText {
+  position: relative;
+  padding: 2.5px 1px;
+  margin-left: 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.logoutText {
+  position: relative;
+  padding: 2.5px 1px;
+  margin-left: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(98, 98, 98);
+}
+
+.notiOption {
+  color: #d9534f;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 600px) {
+  .notiNumber {
+    height: 16px;
+    width: 16px;
+    padding: 1px 1px;
+    font-size: 0.7rem;
+  }
+
+  .optionText {
+    margin-left: 15px;
+  }
+
+  .logoutText {
+    margin-left: 10px;
+  }
+}

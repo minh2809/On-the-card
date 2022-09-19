@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.MainPage {
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  overflow-y: hidden !important;
+}
+
+.locked {
+  position: relative;
+  color: white;
+  margin-top: 0vh;
+  padding-top: 35vh;
+  width: 36%;
+  left: 32%;
+}
+
+.downloadButtonWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px 0;
+}
+
+.linkContainer {
+  position: relative;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .MainPage {
+    margin-top: 0;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .locked {
+    padding-top: 30vh;
+    width: 44%;
+    left: 28%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .locked {
+    padding-top: 35vh;
+    width: 84%;
+    left: 8%;
+  }
+}

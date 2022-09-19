@@ -1,0 +1,25 @@
+.navButton {
+  position: relative;
+  width: 131px;
+  height: 47px;
+
+  background: linear-gradient(
+    180deg,
+    #6bc8cc 0%,
+    rgba(107, 200, 204, 0) 112.71%
+  );
+  border-radius: 16px;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weigth: 600;
+  margin: 0px 11.5px;
+
+  color: #27516c;
+  font-weight: 600;
+  font-size: 22px;
+
+  font-family: "Bebas Neue", cursive;
+}

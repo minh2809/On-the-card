@@ -1,0 +1,316 @@
+.Modal {
+  position: fixed;
+  z-index: 200;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background-color: rgb(243, 245, 246);
+  padding-bottom: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  top: 10vh;
+  left: 15vw;
+  width: 70vw;
+  transition: all 0.5s linear;
+  height: 80vh;
+}
+
+.ModalOpen {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* opacity: 0 make the component disappear*/
+.ModalClosed {
+  opacity: 0;
+  transform: translateY(-150%);
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 0;
+  top: 0;
+  margin: 1.5vh 1vw;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #2960ed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input,
+.output {
+  border-radius: 12px;
+  background-color: white;
+  margin: 5vh 2vw;
+}
+
+.input {
+  flex: 1;
+  height: fit-content;
+  margin-top: 13.5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.output {
+  flex: 1;
+  height: 30vh;
+  margin-top: 20vh;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.btnContainer div,
+.btnContainer label {
+  height: 3vh;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 2.5px 10px;
+  padding-top: 7.5px;
+  border: 0.5px solid rgb(223, 223, 223);
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1vh;
+}
+
+.btnContainer div {
+  width: 5vw !important;
+}
+
+.glowingEffect {
+  animation: shadowing 1s infinite alternate;
+}
+
+.noEffect {
+  position: relative;
+}
+
+@keyframes shadowing {
+  0% {
+    box-shadow: 0 0 6px -6px rgb(190, 190, 190);
+  }
+
+  100% {
+    box-shadow: 0 0 6px 6px rgb(190, 190, 190);
+  }
+}
+
+.btnContainer label {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.btnContainer label:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.btnContainer div:nth-of-type(1) {
+  background-color: rgb(255, 202, 196);
+}
+
+.btnContainer div:nth-of-type(1):hover {
+  background-color: rgb(253, 173, 165);
+}
+
+.LinkBox {
+  position: relative;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #e4e4e4;
+  margin: 30px auto;
+  height: 60px;
+  border-radius: 7px;
+  cursor: pointer;
+  backdrop-filter: blur(15.4368px);
+  padding: 10px;
+
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.thumbnailContainer img,
+.LinkBox img {
+  height: 40px !important;
+  object-fit: contain;
+}
+
+.LinkBox div:nth-of-type(1) {
+  flex: 1;
+  margin: auto;
+}
+
+.LinkBox div:nth-of-type(2) {
+  flex: 2;
+  margin: auto;
+  align-items: center;
+  font-weight: 600;
+}
+
+.LinkBox div:nth-of-type(3) {
+  flex: 1;
+  margin: auto;
+  margin-right: -20px !important;
+}
+
+.demoFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 0px;
+
+  border: 1px dotted rgb(182, 182, 182);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.fileName {
+  font-weight: 650;
+  font-size: 0.95rem;
+  padding-left: 6.5px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  max-width: 225px;
+}
+
+.icon {
+  height: 30px;
+  object-fit: contain;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1025px) {
+  .Modal {
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .input,
+  .output {
+    background-color: white;
+    margin: 10vh 2vw;
+  }
+}
+
+@media screen and (min-height: 1199px) and (min-width: 1100px) {
+  .Modal {
+    height: 70vh;
+  }
+  .input {
+    margin-top: 12.5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .output {
+    flex: 1;
+    height: 20vh;
+    margin-top: 20vh;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: 8vw;
+    border-radius: 5px;
+    padding-top: 0.5vh;
+    margin-top: 0.75vh;
+  }
+}
+
+/*
+      Styling Tablet
+  */
+@media screen and (min-height: 1000px) and (max-width: 1025px) {
+  .input,
+  .output {
+    background-color: white;
+    margin: 15vh 3vw;
+    margin-bottom: 5vh;
+  }
+
+  .input {
+    height: fit-content !important;
+    flex: 1;
+    height: 60vh;
+    padding: 10% 2%;
+  }
+
+  .output {
+    margin-top: 20vh;
+    height: fit-content;
+    padding: 2% 0%;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: 12vw;
+    padding-top: 0.25vh;
+    padding-bottom: 0.2vh;
+    margin-top: 0.5vh;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Modal {
+    background-color: white;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 10vh;
+  }
+
+  .input,
+  .output {
+    width: 90vw;
+    margin: 0vh auto;
+    margin-bottom: 2vh;
+  }
+
+  .output {
+    width: 100vw;
+  }
+
+  .input {
+    flex: 1;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: fit-content;
+    font-size: 0.85rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0.95vh;
+  }
+}

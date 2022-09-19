@@ -1,0 +1,51 @@
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.logo p {
+  font-size: 1.85rem;
+  text-decoration: none;
+  color: #000;
+  margin: 30px 0 0;
+  margin-top: 15px;
+  font-weight: 700;
+  padding-left: 23px;
+}
+
+.logo img {
+  padding-top: 2vh;
+  padding-left: 5px;
+  width: 18px;
+}
+
+.pandoraContainer {
+  position: relative;
+  margin: 10px auto;
+}
+
+.pandoraLogo {
+  position: relative;
+  top: 10px;
+  width: 155px !important;
+  padding-right: 5px;
+}
+
+.verifiedPandora {
+  position: absolute;
+  width: 18px;
+  margin-top: 23.5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo p {
+    font-size: 1.75rem;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    padding-top: 1.25vh;
+  }
+}

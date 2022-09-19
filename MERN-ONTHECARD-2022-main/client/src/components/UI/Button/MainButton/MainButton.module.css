@@ -1,0 +1,118 @@
+.button {
+  width: 100%;
+  background: #2960ed;
+  border: 1px;
+  border-radius: 57px;
+  font-size: 16px;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes glowGrey {
+  from {
+    box-shadow: 0 0 5px -5px grey;
+  }
+  to {
+    box-shadow: 0 0 5px 5px grey;
+  }
+}
+
+.black {
+  color: black;
+}
+
+.button:focus {
+  outline: none !important;
+}
+
+.editPageButton {
+  width: 80%;
+  background: #2960ed;
+  border: 1px;
+  border-radius: 57px;
+  font-size: 0.95rem;
+  padding: 12px 1vw;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  animation: glowGrey 1s infinite alternate;
+}
+
+@keyframes glowGrey {
+  from {
+    box-shadow: 0 0 6px -6px grey;
+  }
+  to {
+    box-shadow: 0 0 6px 6px grey;
+  }
+}
+
+.editPageButton:focus {
+  outline: none !important;
+}
+
+.imgModal {
+  width: fit-content;
+  background: #2960ed;
+  border: 1px;
+  border-radius: 40px;
+  font-size: 0.95rem;
+  padding: 12px 5vw;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.msgModal {
+  width: fit-content;
+  border: 1px;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  background: #2960ed;
+  padding: 12px 50px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imgModal:focus,
+.msgModal:focus {
+  outline: none !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .button {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+    background: #2960ed;
+    border: 1px;
+    border-radius: 57px;
+    font-size: 14px;
+    padding: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .editPageButton {
+    width: 100% !important;
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+
+  .imgModal {
+    padding: 12px 50px;
+  }
+
+  .msgModal {
+    padding: 12px 40px;
+    font-size: 0.75rem !important;
+  }
+}

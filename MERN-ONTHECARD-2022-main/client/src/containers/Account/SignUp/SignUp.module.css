@@ -1,0 +1,261 @@
+.loginContent {
+  position: relative;
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 500px;
+  margin: 2.5% auto;
+  padding: 32px;
+}
+
+.errorContainer {
+  position: relative;
+  background-color: #e6b6b4;
+  height: auto;
+  padding: 0.5vh;
+  border: 1px solid rgb(184, 18, 18);
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-top: -2vh;
+}
+
+.errorContainer h3 {
+  color: brown;
+  font-size: 0.9rem;
+}
+
+.pageTitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 6vh auto;
+}
+
+.inputWrapper {
+  margin-bottom: 20px;
+}
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.labelWrapper {
+  display: flex;
+  align-items: center;
+}
+.label {
+  color: #42444a;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 4px;
+}
+.iconWaring {
+  width: 15px;
+  height: 15px;
+}
+.fullNameLabelRight {
+  color: #42444a;
+  font-size: 14px;
+}
+
+.loginContent h2 {
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.loginContent .titleUp {
+  margin-top: -0.5rem;
+}
+
+.loginContent .input-div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 3px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.loginContent .input-div.one {
+  margin-top: 0;
+}
+
+.signUpButton {
+  margin: 35px 0;
+  margin-top: 25px;
+}
+
+.hoverTextArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hoverDescription {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.breakLine {
+  display: none;
+}
+
+.checkBox {
+  position: relative;
+  display: flex;
+  text-align: start;
+  font-size: 0.9rem;
+}
+
+.checkBox p {
+  margin: 0px auto;
+  margin-top: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.checkBox p span {
+  color: #0275d8;
+  font-weight: 650;
+}
+
+.checkBox p span:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1050px) {
+  .loginContent {
+    top: 0;
+    /* left: -45%; */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .loginContent {
+    /* left: -12%; */
+    justify-content: center;
+  }
+
+  .loginContent h2 {
+    /* left: 27%; */
+    font-size: 2rem;
+    margin: 8px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .pageTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0vh auto;
+    margin-bottom: 4vh;
+  }
+
+  .breakLine {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .loginContent {
+    justify-content: center;
+  }
+
+  .loginContent h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .loginContent {
+    width: auto;
+  }
+
+  .pageTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0vh auto;
+    margin-bottom: 4vh;
+  }
+
+  .hoverDescription {
+    font-size: 0.85rem;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  .checkBox {
+    font-size: 0.8rem;
+  }
+
+  .checkBox p {
+    margin-top: 6px;
+  }
+
+  .checkBox p span {
+    text-decoration: underline;
+    text-decoration-color: #5bc0de;
+  }
+
+  .checkBox p span:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .loginContent {
+    /* left: -40%; */
+    justify-content: center;
+  }
+
+  .loginContent h2 {
+    position: relative;
+    font-size: 1.2rem;
+    /* left: 34%; */
+  }
+
+  /* .loginContent img {
+    position: relative;
+    left: -1%;
+    height: 80px;
+  } */
+
+  .loginContent p {
+    position: relative;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .title,
+  .titleUp {
+    font-size: 0.75rem;
+  }
+
+  .hoverDescription {
+    font-size: 12px;
+  }
+
+  .pageTitle {
+    font-size: 1.25rem;
+  }
+
+  .checkBox {
+    font-size: 0.5rem;
+  }
+
+  .checkBox p {
+    margin-top: 10px;
+  }
+}

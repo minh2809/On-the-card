@@ -1,0 +1,48 @@
+.viewContainer {
+  position: relative;
+  margin-bottom: 180px;
+}
+
+.buttonContainer {
+  position: relative;
+  width: 27.5vw;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1800px) {
+  .buttonContainer {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .viewContainer {
+    margin-bottom: 100px;
+  }
+
+  .buttonContainer {
+    width: 37.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .buttonContainer {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buttonContainer {
+    position: relative;
+    width: 82vw;
+    margin: 2vh auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .viewContainer {
+    margin-bottom: -10px;
+  }
+}

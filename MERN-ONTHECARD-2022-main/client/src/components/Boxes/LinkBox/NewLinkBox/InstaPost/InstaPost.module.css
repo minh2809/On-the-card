@@ -1,0 +1,72 @@
+.insta {
+  position: relative;
+  z-index: inherit;
+  margin: 25px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  height: fit-content;
+  max-height: 565px;
+  width: 375px;
+  object-fit: cover !important;
+
+  -moz-box-shadow: 5px 5px 5px rgba(22, 24, 35, 1.12);
+  -webkit-box-shadow: 5px 5px 5px rgba(22, 24, 35, 1.12);
+  box-shadow: 5px 5px 5px rgba(22, 24, 35, 1.12);
+}
+
+.demo {
+  position: relative;
+  z-index: inherit;
+  margin: 10px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgb(199, 199, 199);
+  height: fit-content;
+  max-height: 360px;
+  width: 320px;
+}
+
+.previewDemo {
+  position: relative;
+  z-index: inherit;
+  margin: 10px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgb(199, 199, 199);
+  height: fit-content;
+  max-height: 508px;
+  width: 320px;
+}
+
+/*
+        Styling Tablet
+    */
+@media screen and (min-height: 1000px) and (max-width: 1025px) {
+  .demo {
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .insta {
+    max-height: 508px;
+    width: 320px;
+  }
+
+  .demo {
+    margin: 0px auto !important;
+    margin-bottom: 35px !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .insta {
+    max-height: 500px;
+    width: 290px;
+  }
+
+  .demo {
+    margin: 0px auto !important;
+    margin-bottom: 35px !important;
+  }
+}

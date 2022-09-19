@@ -1,0 +1,86 @@
+.copyLinkContainer {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(218, 220, 221);
+  justify-content: space-evenly;
+  width: 65%;
+  margin: 0vh auto;
+  margin-top: 2.5vh;
+  font-weight: 600;
+}
+
+.infoBox {
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0vh 2.5% !important;
+  width: 60% !important;
+}
+
+.copyLinkContainer p {
+  font-size: 0.9rem !important;
+  padding: 0.25vw 0.25vw;
+}
+
+.content {
+  text-align: start;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.copyLinkContainer p:nth-child(2) {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1025px) {
+  .copyLinkContainer {
+    width: 40%;
+  }
+
+  .infoBox {
+    width: 60% !important;
+  }
+
+  .content {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyLinkContainer {
+    width: 85%;
+    font-size: 0.85rem;
+  }
+
+  .copyLinkContainer p {
+    font-size: 0.8rem !important;
+  }
+
+  .infoBox {
+    width: 75% !important;
+    padding: 0vh 5% !important;
+  }
+
+  .infoBox .content {
+    font-size: 0.7rem !important;
+  }
+
+  .content {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .copyLinkContainer {
+    width: 85%;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .copyLinkContainer p {
+    font-size: 0.65rem !important;
+  }
+}

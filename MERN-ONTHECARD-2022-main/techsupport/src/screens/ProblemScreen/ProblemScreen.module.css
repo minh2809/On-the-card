@@ -1,0 +1,45 @@
+.separateStyling {
+  margin: 2vh;
+  display: block;
+}
+
+.problemStyling {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.returnButtonStyling {
+  margin-bottom: 3vh !important;
+}
+
+.textFieldStyling {
+  width: 30vw;
+}
+
+.suggestStyling {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.issueStyling {
+  position: relative;
+  color: brown;
+  width: 50vw;
+  left: 25vw;
+}
+
+@media screen and (max-width: 600px) {
+  .textFieldStyling {
+    width: 81vw;
+  }
+
+  .suggestStyling {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .issueStyling {
+    width: 80vw;
+    left: 10vw;
+  }
+}

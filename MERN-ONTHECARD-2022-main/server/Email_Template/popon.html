@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        width: 100vw !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        font-size: 1.25rem;
+        font-weight: 600;
+        width: auto;
+        padding: 1vh 3vw;
+        margin: 2vh 5vw;
+        color: brown;
+      }
+
+      .imgContainer img {
+        position: absolute;
+        left: 30%;
+        width: 40%;
+        margin-top: 2vh;
+      }
+
+      span {
+        color: #0275d8;
+        font-weight: 800;
+      }
+
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+
+      .button {
+        width: 100vw;
+        margin-left: 10vw;
+      }
+
+      .button a {
+        background-color: #0275d8;
+        color: white !important;
+        padding: 1vh 3vw;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .button a:hover {
+        background-color: black;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .imgContainer img {
+          position: absolute;
+          left: 5vw;
+          width: 90vw;
+          margin-top: 2vh;
+        }
+
+        .button {
+          width: 94vw;
+          text-align: center;
+          margin-left: auto;
+        }
+
+        p {
+          font-size: 1rem;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Ra Mắt Sản Phẩm Mới Của <br />
+        <span>ONTHECARD</span>
+      </p>
+      <div class="button">
+        <a href="https://onthecard.vn/collections/all">Xem Sản Phẩm</a>
+      </div>
+      <a href="https://onthecard.vn/collections/all" class="imgContainer">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/trung-portfolio.appspot.com/o/personal%2F168492177_508462220563962_7444493063101489529_n.jpg?alt=media&token=f05ce2b7-138b-457d-99dd-918019da26e0"
+        />
+      </a>
+    </div>
+  </body>
+</html>

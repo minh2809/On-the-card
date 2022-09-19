@@ -1,0 +1,19 @@
+.saveContactBtn {
+  position: relative;
+  z-index: 20;
+
+  color: white;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 7.5px 15px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--petro-vn-yellow);
+
+  font-family: "Roboto Condensed", sans-serif;
+}

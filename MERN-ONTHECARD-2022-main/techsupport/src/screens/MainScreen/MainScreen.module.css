@@ -1,0 +1,22 @@
+.mainStyling {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.listStyling {
+  margin: 0 6vw;
+}
+
+.btnStyling {
+  background-color: #292b2c !important;
+  margin-bottom: 50px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .btnStyling {
+    margin-top: 3vh !important;
+  }
+  .mainStyling {
+    margin-top: 5vh;
+  }
+}

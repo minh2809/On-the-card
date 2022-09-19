@@ -1,0 +1,475 @@
+.Modal {
+  position: fixed;
+  display: block;
+  z-index: 200;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: white;
+  padding-bottom: 40px;
+  text-align: center;
+  box-sizing: border-box;
+
+  top: 15vh;
+  left: 30vw;
+  width: 40vw;
+  height: 550px;
+
+  transition: all 0.5s linear;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+.ModalConfirm {
+  top: 25vh !important;
+  height: 165px !important;
+}
+
+.ModalSearch {
+  top: 25vh !important;
+  height: 220px !important;
+}
+
+.ModalSearching {
+  height: 300px !important;
+}
+
+.NoteOrderConfirm {
+  height: 185px !important;
+}
+
+.textContainer {
+  position: relative;
+  left: 10%;
+  width: 80% !important;
+}
+
+.container {
+  position: relative;
+  min-height: 60vh;
+}
+
+.pageTitle {
+  font-size: 1.25rem;
+}
+
+.pageTitle span {
+  font-weight: 900 !important;
+  color: #0275d8;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background-color: whitesmoke;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 12px;
+  margin: 15px auto;
+  padding: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+
+  backdrop-filter: blur(15.4368px);
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.box:hover {
+  background-color: white;
+}
+
+.isNotRead {
+  background-color: white !important;
+}
+
+.isNotRead:hover {
+  background-color: whitesmoke !important;
+}
+
+.isNotReadMessage p,
+.isNotReadMessage h3 {
+  color: black !important;
+  font-weight: 800 !important;
+}
+
+.icon {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.messageContainer {
+  position: relative;
+  text-align: start;
+  margin-left: 50px;
+}
+
+.messageContainer h3 {
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+}
+
+.messageContainer p,
+.messageContainer h3 {
+  margin: 5px 0px;
+}
+
+.messageText {
+  overflow: hidden;
+  width: 200px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(65, 65, 65);
+}
+
+.date {
+  font-size: 0.85rem;
+  color: rgb(119, 119, 119);
+  margin-bottom: 20px !important;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 35px;
+}
+
+.title span {
+  color: grey;
+  font-size: 0.95rem;
+}
+
+.titleConfirm {
+  margin-top: 215px !important;
+}
+
+.textArea {
+  position: relative;
+  height: 125px !important;
+  width: 58% !important;
+  display: block;
+  border: 1px solid rgb(218, 220, 221);
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin: 1vh auto;
+  margin-top: 2.5vh;
+  margin-bottom: 0vh;
+  resize: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: rgb(218, 220, 221);
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.textArea:focus {
+  outline: none !important;
+  border: 1px solid rgb(218, 220, 221);
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  width: 76%;
+  left: 12% !important;
+}
+
+.noMsg {
+  font-size: 1.25rem;
+  color: rgb(155, 155, 155);
+  margin: 18vh auto;
+}
+
+.buttonContain {
+  display: flex;
+  margin-top: 0vh;
+  justify-content: space-evenly;
+}
+
+.buttonStyle {
+  position: relative;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  padding: 12px 0vw;
+  font-weight: 800;
+  cursor: pointer;
+  backdrop-filter: blur(16px);
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.buttonHolder {
+  width: 180px;
+}
+
+.excelButton {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.buttonBlack {
+  background: #282828;
+  color: #ffffff;
+}
+
+.buttonBlack:hover {
+  background-color: #515151;
+}
+
+.confirmDes {
+  position: relative;
+  font-weight: 600;
+  width: 70%;
+  left: 15%;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 1800px) {
+  .Modal {
+    height: 575px;
+    left: 37vw;
+    width: 26vw;
+  }
+
+  .textArea {
+    width: 92% !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Modal {
+    height: 575px;
+    left: 25vw;
+    width: 50vw;
+  }
+
+  .box {
+    width: 40%;
+  }
+
+  .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Modal {
+    height: 575px;
+    left: 15vw;
+    width: 70vw;
+  }
+
+  .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Modal {
+    display: block;
+    top: 15vh;
+    left: 5vw;
+    width: 90vw;
+    height: 500px;
+  }
+
+  .excelButton {
+    display: none;
+  }
+
+  .container {
+    min-height: 68vh;
+  }
+
+  .ModalConfirm {
+    top: 25vh !important;
+    height: 150px !important;
+  }
+
+  .NoteOrderConfirm {
+    height: 200px !important;
+  }
+
+  .confirmDes {
+    width: 80%;
+    left: 10%;
+    font-size: 0.9rem;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    margin-top: 29px;
+  }
+
+  .titleConfirm {
+    margin-top: 160px !important;
+  }
+
+  .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .messageContainer {
+    margin-left: 20px;
+  }
+
+  .messageContainer h3 {
+    font-size: 1.05rem;
+  }
+
+  .date {
+    font-size: 0.75rem;
+  }
+
+  .messageText {
+    font-size: 0.85rem;
+  }
+
+  .textArea {
+    margin-top: 2.5vh;
+    font-size: 0.75rem;
+    width: 75% !important;
+    padding: 15px 5%;
+  }
+
+  .buttonContainer {
+    margin-top: 30px;
+    width: 90%;
+    left: 5% !important;
+  }
+
+  .buttonContain {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    left: 0% !important;
+  }
+
+  .buttonStyle {
+    width: 135px;
+    font-size: 0.65rem;
+    justify-content: space-between;
+  }
+
+  .buttonHolder {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .Modal {
+    display: block;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .box {
+    width: 85%;
+  }
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .messageContainer {
+    margin-left: 19px;
+  }
+
+  .date {
+    font-size: 0.6rem;
+  }
+
+  .messageText {
+    width: 150px;
+    font-size: 0.65rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    margin-top: 15vh;
+  }
+}
+
+/*
+    Animation Effect
+*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

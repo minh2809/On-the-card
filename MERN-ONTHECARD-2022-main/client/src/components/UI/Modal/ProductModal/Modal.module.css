@@ -1,0 +1,353 @@
+.Modal {
+  position: fixed;
+  z-index: 200;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background-color: rgb(243, 245, 246);
+  padding-bottom: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  top: 12vh;
+  left: 15vw;
+  width: 70vw;
+  height: 80vh;
+
+  transition: all 0.5s linear;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+.ModalClosed {
+  display: none;
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 0;
+  top: 0;
+  margin: 1.5vh 1vw;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #2960ed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input,
+.output {
+  border-radius: 12px;
+  background-color: white;
+}
+
+.input {
+  flex: 1;
+  height: fit-content;
+  margin: auto 2vw;
+  margin-top: 50px;
+  padding-top: 10vh;
+  padding-bottom: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.output {
+  flex: 1;
+  height: fit-content;
+  margin: auto 30px;
+  padding-bottom: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnContainer div,
+.btnContainer label {
+  height: 3vh;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 0.5vh 1.5vw;
+  padding-top: 0.75vh;
+  border: 0.5px solid rgb(223, 223, 223);
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1vh;
+}
+
+.btnContainer label {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.btnContainer label:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.btnContainer div:nth-of-type(1) {
+  background-color: rgb(255, 202, 196);
+}
+
+.btnContainer div:nth-of-type(1):hover {
+  background-color: rgb(253, 173, 165);
+}
+
+.textArea {
+  position: relative;
+  height: 30px !important;
+  width: 89% !important;
+  display: block;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin: 1vh auto;
+  margin-bottom: 0vh;
+  resize: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.textArea:focus {
+  outline: none !important;
+  background: rgba(41, 96, 237, 0.05);
+  border: 1px solid #2960ed;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1025px) {
+  .Modal {
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .input,
+  .output {
+    background-color: white;
+    margin: 2.5vh 2vw;
+    margin-top: 100px;
+  }
+
+  .textArea {
+    width: 91% !important;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (min-height: 1199px) and (min-width: 1100px) {
+  .Modal {
+    height: 70vh;
+  }
+  .input {
+    margin-top: 12.5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .output {
+    flex: 1;
+    height: 20vh;
+    margin-top: 20vh;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: 8vw;
+    border-radius: 5px;
+    padding-top: 0.5vh;
+    margin-top: 0.75vh;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+/*
+      Styling Tablet
+  */
+@media screen and (min-height: 1000px) and (max-width: 1025px) {
+  .input,
+  .output {
+    background-color: white;
+    margin: auto 10px;
+    margin-bottom: 5vh;
+  }
+
+  .input {
+    height: fit-content !important;
+    flex: 1;
+    height: auto;
+    padding: 10% 2%;
+    margin-top: 180px;
+  }
+
+  .output {
+    margin-top: 20vh;
+    height: fit-content;
+    padding: 2% 5px;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: fit-content;
+    padding: 0.75vh 2vw;
+    padding-bottom: 0vh;
+    margin-top: 0.5vh;
+    font-size: 0.75rem;
+  }
+
+  .textArea {
+    font-size: 0.75rem;
+    width: 88% !important;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Modal {
+    position: absolute;
+    background-color: white;
+    height: fit-content;
+    width: 100vw;
+    left: -10px;
+    margin-top: -235px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 10vh;
+  }
+
+  .input,
+  .output {
+    width: 90vw;
+    margin: 0vh auto;
+    margin-bottom: 0vh;
+  }
+
+  .output {
+    margin-top: -30px;
+    width: 100vw;
+  }
+
+  .input {
+    flex: 1;
+    padding-top: 0vh;
+  }
+
+  .btnContainer div,
+  .btnContainer label {
+    height: 2vh;
+    width: fit-content;
+    font-size: 0.85rem;
+    padding: 8px 16px;
+    padding-bottom: 10px;
+    margin-top: 0.95vh;
+  }
+
+  .closeButton {
+    font-size: 1.35rem;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    margin: 1vh 1vh;
+  }
+
+  .buttonContainer {
+    margin-top: 5px;
+    margin-bottom: 250px !important;
+  }
+
+  .textArea {
+    font-size: 0.75rem;
+    width: 88% !important;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .input {
+    padding-top: 0vh;
+    padding-bottom: 5vh;
+  }
+}
+
+/*
+    Animation Effect
+*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(startYposition);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(endYposition);
+  }
+}

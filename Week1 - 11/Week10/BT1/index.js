@@ -1,15 +1,33 @@
+// const array = [3, 4, 7, 1, 7];
 
-function basketball(x, y){
-   const game = (`points(${x}, ${y}) -> `)
-   const z=2*x+3*y;
-   return game + z;
+// function findPairOfIndex(array,sumMatched){
+//    for(let i = 0; i < array.length; i++){
+//      for(let j = 0; j < array.length; j++){
+//         if(array[i]+array[j]== sumMatched){
+//             return [i,j];
+//         }
+//     }
+// }
+// }
+
+// console.log(findPairOfIndex(array,10));
+
+
+
+
+function checkSumOfDigitIsEven(num) {
+    count = 0;  
+    for (i = 1; i < num; i++) {
+        sum = 0;
+        // while (i !=0) {
+        //     sum += i % 10;
+        //     i = Number(i/10);
+        // }
+        if (sum % 2 == 0) {
+            count++;
+        }
+    }
+    console.log(count);
 }
 
-// const point = basketball(38,8)
-// console.log(point);
-
-const twopoint = prompt('Enter number of two points shot:');
-const threepoint = prompt('Enter number of three points shot:');
-
-const result = basketball(twopoint,threepoint);
-console.log(result);
+checkSumOfDigitIsEven(30)

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Noto+Serif:wght@700&display=swap");
+.a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #2960ed;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 680;
+  padding-left: 0.5vw;
+}
+
+.forgotPass {
+  width: 100%;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.a:hover {
+  color: #3f51b5;
+}
+
+@media screen and (max-width: 900px) {
+  .a {
+    font-size: 0.85rem;
+    padding-left: 2vw;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .a {
+    font-size: 0.7rem;
+    /* right: -20%; */
+  }
+}

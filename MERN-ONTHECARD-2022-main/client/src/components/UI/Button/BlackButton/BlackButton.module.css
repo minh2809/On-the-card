@@ -1,0 +1,57 @@
+.button {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  background-color: white;
+  border: solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  padding: 3.5px 7.5px;
+  font-size: 0.75rem;
+  line-height: 19px;
+  margin-left: 0%;
+  margin-top: 0.25%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover,
+.button.active {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: solid 2px #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.button i {
+  padding-right: 0.25rem;
+}
+
+.updateButton {
+  margin-top: 4.5%;
+  padding: 15px 15px;
+  font-size: 0.85rem;
+}
+
+.updateButton:hover,
+.updateButton.active {
+  background: #0275d8;
+}
+
+@media screen and (max-width: 767px) {
+  .updateButton {
+    margin-top: 5vh !important;
+  }
+}

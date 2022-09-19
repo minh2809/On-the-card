@@ -1,0 +1,62 @@
+.output {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  max-width: 380px;
+  margin: 20px auto;
+  height: 15vw;
+  border-radius: 12px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.LinkBoxPreview {
+  position: relative;
+  width: 359px !important;
+  height: 14vw;
+}
+
+@media screen and (min-width: 1800px) {
+  .output {
+    margin: 15px auto;
+    width: 85vw;
+    height: 11vw;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .output {
+    margin: 15px auto;
+    width: 85vw;
+    height: 20.5vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .output {
+    margin: 15px auto;
+    width: 85vw;
+    height: 27.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .output {
+    margin: 15px auto;
+    width: 85vw;
+    height: 48vw;
+  }
+
+  .LinkBoxPreview {
+    width: 65vw !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .output {
+    margin: 15px auto;
+    width: 85vw;
+    height: 50vw;
+  }
+}

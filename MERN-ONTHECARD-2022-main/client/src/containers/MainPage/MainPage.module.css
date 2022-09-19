@@ -1,0 +1,84 @@
+.MainPage {
+  width: 100%;
+  height: wrap;
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+
+.divider {
+  width: 1vw;
+}
+
+.wave {
+  position: fixed;
+  bottom: 0%;
+  left: 0;
+  height: 100%;
+  z-index: 0;
+}
+
+.buttonContainer {
+  position: relative;
+  width: 27.5vw;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.editProfileButton {
+  margin-top: 5px !important;
+  height: 40px;
+  font-weight: 700 !important;
+  border-radius: 6px !important;
+  font-size: 14px !important;
+}
+
+@media screen and (min-width: 1800px) {
+  .buttonContainer {
+    width: 15vw;
+  }
+
+  .MainPage {
+    padding-top: 8%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .MainPage {
+    padding-top: 5vh;
+    margin-top: 0%;
+  }
+  .buttonContainer {
+    width: 37.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .buttonContainer {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wave {
+    bottom: -15%;
+  }
+
+  .editProfileButton {
+    margin-top: 0px !important;
+    height: 33px;
+    font-weight: 700 !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+  }
+
+  .buttonContainer {
+    position: relative;
+    width: 82vw;
+    margin: 2vh auto;
+  }
+
+  .divider {
+    width: 5vw;
+  }
+}

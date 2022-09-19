@@ -1,0 +1,16 @@
+{
+  "short_name": "On The Card",
+  "name": "On The Card - Thẻ Thông Minh Hàng Đầu Việt Nam",
+  "icons": [
+    {
+      "src": "favicon-min.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

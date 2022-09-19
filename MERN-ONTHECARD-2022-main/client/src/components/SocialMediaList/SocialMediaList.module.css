@@ -1,0 +1,150 @@
+.SocialMediaList {
+  position: relative;
+  /* max-width: 500px; */
+  margin: 30px auto;
+  height: wrap;
+}
+
+.dragging {
+  background-color: rgb(250, 250, 250) !important;
+  animation: glowGrey2 0.65s infinite alternate;
+  transition: all 1s ease-in;
+  transform: scale(1.01);
+}
+
+.accountUrl {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.67;
+  color: rgb(0, 102, 176);
+  margin: 0px;
+  margin-right: 22px !important;
+}
+
+.previewPhoneArea {
+  position: relative;
+  /* max-width: 500px; */
+  background: #fff;
+  margin: 10px auto 20px;
+  padding: 0 20px;
+  border-width: 8px;
+  border-image: initial;
+  border-radius: 26px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.SocialMediaListHeader {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.SocialMediaListHeaderProduct {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.AddLinkLabel {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.AddLinkButton {
+  background: rgba(41, 96, 237, 0.1);
+  border: 1px solid rgba(41, 96, 237, 0.1);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  cursor: pointer;
+  animation: glowGrey 1s infinite alternate;
+}
+
+@keyframes glowGrey {
+  from {
+    box-shadow: 0 0 6px -6px rgb(190, 190, 190);
+  }
+  to {
+    box-shadow: 0 0 6px 6px rgb(190, 190, 190);
+  }
+}
+
+@keyframes glowGrey2 {
+  from {
+    box-shadow: 0 0 8px -8px rgb(185, 185, 185);
+  }
+  to {
+    box-shadow: 0 0 8px 8px rgb(185, 185, 185);
+  }
+}
+
+.AddLinkButton i {
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.UpdateButtonWrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.redirectContainer {
+  display: flex;
+  justify-content: space-evenly !important;
+  flex: 1;
+}
+
+@media screen and (max-width: 1025px) {
+  .SocialMediaList {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: wrap;
+  }
+
+  .UpdateButtonWrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .AddLinkLabel {
+    font-size: 0.9rem;
+  }
+
+  .AddLinkButton {
+    font-weight: 900;
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+
+  .AddLinkButton i {
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+
+  .SocialMediaListHeader {
+    margin-bottom: 15px;
+  }
+
+  .dropping {
+    position: relative;
+    width: 110%;
+    left: -5%;
+    padding-top: 3px;
+    padding-bottom: 5px !important;
+  }
+}

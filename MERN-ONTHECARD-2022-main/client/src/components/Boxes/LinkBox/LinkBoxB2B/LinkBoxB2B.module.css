@@ -1,0 +1,185 @@
+.LinkBox {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.735088px solid #e4e4e4;
+  max-width: 400px;
+  margin: 20px auto;
+  height: auto;
+  border-radius: 7px;
+  cursor: pointer;
+  backdrop-filter: blur(15.4368px);
+  padding: 10px;
+
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.info {
+  font-size: 1rem;
+  margin: 0px auto;
+  padding: 0px auto;
+  margin-top: 5px;
+}
+
+.topperContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LinkBoxPreview {
+  position: relative;
+}
+
+.pPreview {
+  position: relative;
+}
+
+.socialIconWrapper {
+  position: relative;
+  flex: 1;
+}
+
+.iconPlate {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.socialIcon {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.emailIcon {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.content {
+  position: relative;
+  font-size: 1rem;
+  flex: 2;
+  margin: auto auto;
+  padding-top: 0.85vh;
+}
+
+.directIcon {
+  position: relative;
+  font-size: 1rem;
+  flex: 1;
+  margin: auto;
+}
+
+.contentOver25 {
+  height: 80px !important;
+}
+
+.contentOver35 {
+  height: 120px !important;
+}
+
+.LinkBoxNoImg {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.h2LongString {
+  left: -19%;
+}
+
+.h2noImg {
+  position: relative;
+  text-align: center;
+}
+
+.p {
+  font-weight: 600;
+  font-size: 17.6421px;
+  margin: 0 0 5px;
+}
+
+.customImage {
+  position: relative;
+  flex: 1;
+  text-align: start;
+  padding: auto 0vw;
+}
+
+.customImage img {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.additionalInfo {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.numberLine {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.bankNumber {
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding-top: 3px;
+  width: 70%;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 12.96em;
+  line-height: 1.8em;
+  padding-right: 5px;
+}
+
+.copyButton {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(12, 12, 12);
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 5px;
+  height: 15px;
+  margin: auto 0;
+}
+
+.copyButton:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 600px) {
+  .LinkBox {
+    margin: 12px auto;
+    height: auto;
+    padding: 10px;
+    width: 80vw;
+  }
+  .p {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 0 5px;
+  }
+  .LinkBoxPreview {
+    width: 65vw !important;
+  }
+
+  .pPreview {
+    font-size: 0.6rem !important;
+  }
+
+  .bankNumber {
+    font-size: 0.8rem;
+    width: 60%;
+    text-overflow: ellipsis;
+  }
+}

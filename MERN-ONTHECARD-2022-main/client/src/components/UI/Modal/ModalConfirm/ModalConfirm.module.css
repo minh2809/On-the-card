@@ -1,0 +1,183 @@
+.Modal {
+  position: fixed;
+  z-index: 200;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  top: 5vh;
+  left: 25vw;
+  width: 50vw;
+  transition: all 0.5s ease-out;
+}
+
+.errorText {
+  color: #d9534f !important;
+}
+
+.ModalOpen {
+  opacity: 1;
+  transform: translateY(10%);
+}
+
+/* opacity: 0 make the component disappear*/
+.ModalClosed {
+  opacity: 0;
+  transform: translateY(-250%);
+}
+
+.modalImageWrapper {
+  margin-bottom: 28px;
+}
+
+.confirmModalImage {
+  width: auto !important;
+  height: 30vh !important;
+}
+
+.modalTitle {
+  position: relative;
+  font-size: 1.85rem;
+  color: #000000;
+  margin-bottom: 2vh;
+  font-weight: 800;
+}
+
+.modalConfirm {
+  font-size: 1rem;
+  color: #5cb85c;
+  margin-bottom: 3vh;
+  font-weight: 800;
+}
+
+.confirmModalButton {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.confirmModalButton div,
+.confirmModalButton button {
+  background-color: #282822 !important;
+  color: white !important;
+  font-size: 0.95rem !important;
+  padding: 10px 0px !important;
+  margin-top: 10px !important;
+}
+
+.email {
+  padding-top: 1vh;
+  font-size: 1.25rem;
+  overflow: auto;
+}
+
+@media screen and (min-width: 1800px) {
+  .Button {
+    font-size: 1.25rem;
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .Modal {
+    top: 5%;
+  }
+
+  .confirmModalImage {
+    width: auto !important;
+    height: 300px !important;
+  }
+
+  .Button {
+    font-size: 1rem;
+    width: 30%;
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Modal {
+    top: 20%;
+  }
+
+  .Button {
+    font-size: 1rem;
+    width: 40%;
+    left: 30%;
+  }
+
+  .confirmModalImage {
+    width: 35vw !important;
+    height: auto !important;
+  }
+
+  .modalTitle {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 2vh;
+    font-weight: 800;
+  }
+
+  .email {
+    font-size: 0.8rem;
+  }
+
+  .confirmModalButton {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Modal {
+    top: 10%;
+    left: 5%;
+    width: 90%;
+  }
+  .Button {
+    position: relative;
+    /* left: 27.5%; */
+    display: block;
+    left: 10%;
+    width: 80%;
+    padding: 10px 0px;
+  }
+  .confirmModalImage {
+    width: 65vw !important;
+    height: auto !important;
+  }
+
+  .modalTitle {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-bottom: 2vh;
+    font-weight: 800;
+  }
+
+  .email {
+    font-size: 0.8rem;
+  }
+
+  .modalConfirm {
+    font-size: 0.85rem;
+    color: #5cb85c;
+    margin-bottom: 3vh;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .Modal {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+  }
+  .Button {
+    font-size: 0.75rem;
+    padding-bottom: 1%;
+    padding-top: 1.5%;
+  }
+}

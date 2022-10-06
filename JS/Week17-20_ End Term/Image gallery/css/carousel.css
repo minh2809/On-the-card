@@ -1,0 +1,201 @@
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 97%;
+  margin: 15px auto;
+  margin-bottom: 0px;
+  margin-left: 2.5px;
+}
+
+.slideshowContainer {
+  position: relative;
+  width: 650px;
+  margin: 0px auto;
+  margin-bottom: 15px;
+}
+
+.outerCarousel {
+  height: 370px;
+}
+/* Hide the images by default */
+.innerCarousel,
+.outerCarousel {
+  display: none;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+}
+
+/* Next & previous buttons */
+.prev,
+.next,
+.nextSlide,
+.prevSlide {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: grey;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next.active {
+  position: absolute;
+  right: 0;
+  top:0%;
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  justify-content: center;
+  border-radius: 12px;
+
+}
+.prev.active{
+  position: absolute;
+  left: 0;
+  top:0;
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  justify-content: center;
+  border-radius: 12px;
+
+}
+.nextSlide.active{
+  position: absolute;
+  right: 0;
+  top:0;
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.prevSlide.active{
+  position: absolute;
+  left: 0;
+  top:0;
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover,
+.nextSlide:hover,
+.prevSlide:hover {
+  color: white;
+}
+
+/* Delete Btn */
+.deleteBtn {
+  position: absolute;
+  cursor: pointer;
+  color: #f2f2f2;
+  font-size: 20px;
+  padding-left: 9px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 10000;
+}
+
+.deleteBtn:hover {
+  opacity: 0.7;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.btm-sliders,
+.bottom-sliders {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+}
+
+.btm-sliders span,
+.bottom-sliders span {
+  height: 4px;
+  width: 35px;
+  background-color: var(--darkGray);
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.btm-sliders span:hover,
+.bottom-sliders span:hover {
+  background-color: var(--grey);
+}
+
+.caActive {
+  background-color: var(--white) !important;
+}
+
+.background-blur{
+  position:absolute; 
+  height:100%; 
+  width:100%; 
+  background-position:50%;
+  background-size:cover;
+  border-radius: 12px;
+}
+.background-blur2{
+  position:absolute; 
+  height:98%; 
+  width:100%; 
+  background-position:50%;
+  background-size:cover;
+  border-radius: 12px;
+}
+.noContent img{
+  display: none;
+}
+
+.noContent.active img{
+  position: relative;
+  left: 25%;
+  height: 40%;
+  width: 50%;
+  margin-top: 50px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

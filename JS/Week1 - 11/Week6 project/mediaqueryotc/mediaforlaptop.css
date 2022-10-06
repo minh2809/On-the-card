@@ -1,0 +1,159 @@
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+    .logo{
+        height: 35px;
+        width: auto;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .search-box{
+        width: 30%;
+        left: 50%;
+        top: 20%;
+    }
+    .nav-items{
+        margin-left: 530px;
+    }
+    ._8-yf5 {
+       height: 26px;
+       width: 26px;
+       margin-left: 15px;
+    }
+    .profile-picture{
+        height: 26px;
+        width: auto;
+    }
+    .otc-logo{
+        height: 165px;
+        width: auto;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .post1{
+        margin-left: 340px;
+        margin-top: -150px;
+    }
+    .post2{
+        margin-left: 340px;
+        width: 35%;
+        margin-top: -90px;
+    }
+    .post3{
+        margin-left: 340px;
+        width: 40%;
+        margin-top: -50px;
+    }
+    .post4{
+        margin-left: 340px;
+        width: 50%;
+        margin-top: -25px;
+    }
+    .post5{
+        margin-left: 340px;
+        width: 40%;
+        margin-top: 0px;
+    }
+    .post6{
+        margin-left: 340px;
+        width: 40%;
+        margin-top: 5px;
+    }
+    .post7{
+        margin-left: 340px;
+        width: 40%;
+        margin-top: 5px;
+    }
+    .link{
+        margin-left: 340px;
+        width: 40%;
+    }
+    .highlight{
+        margin-left: 100px;
+    }
+    .how{
+        width: auto;
+        margin-left: 0px;
+    }
+    .tap-me{
+        width: auto;
+        margin-left: 40px;
+    }
+    .one-house{
+        width: auto;
+        margin-left: 40px;
+    }
+    .why{
+        width: auto;
+        margin-left: 40px;
+    }
+    .review{
+        width: auto;
+        margin-left: 40px;
+    }
+    .minh1{
+        margin-left: 27px;
+        font-size: 15px;
+    }
+    .minh2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .minh3{
+        margin-left: 56px;
+        width: 60%;
+        font-size: 15px;
+    }
+    .minh4{
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .minh5{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .line{
+        width: 90%;
+    }
+    .options{
+        margin-left: 210px;
+    }
+    .post-minh{
+        font-size: 13px;
+    }
+    .guide{
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .reel{
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .video{
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .tag{
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .posts{
+        margin-left: 52px;
+        margin-top: 25px;
+        gap: 25px;
+        width: 375px;
+    }
+    .image{
+        height: 290px;
+        width: 290px;
+    }
+    .imgContainer{
+        height: 290px;
+        width: 290px;
+    }
+    .imgContainer:hover{
+        transform: scale(1); 
+    }
+    .imgContainer .links{
+        top: 40%;
+        left: 36%;
+    }
+}

@@ -1,0 +1,222 @@
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+    .logo{
+        height: 35px;
+        width: auto;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .search-box{
+        width: 35%;
+        left: 42%;
+        top: 20%;
+        display: block;
+    }
+    .nav-items{
+        margin-left: 345px;
+    }
+    ._8-yf5 {
+       height: 26px;
+       width: 26px;
+       margin-left: 15px;
+    }
+    .profile-picture{
+        height: 26px;
+        width: auto;
+    }
+    .otc-logo{
+        height: 165px;
+        width: auto;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+    .post1{
+        margin-left: 240px;
+        margin-top: -200px;
+    }
+    .follow{
+        width: 20%;
+        margin-top: 57px;
+        margin-left: 20px;
+    }
+    .more{
+        margin-top: 57px;
+        margin-left: 8px;
+    }
+    .icon{
+        position: relative;
+        left: 20%;
+    }
+    .post2{
+        position: relative;
+        left: 36%;
+        top: 0%;
+        margin-top: -100px;
+        margin-left: 9px;
+    }
+    #m{
+        font-size: 16px;
+        margin-left: 5px ;
+    }
+    #i{
+        font-size: 16px;
+        margin-left: 95px ;
+    }
+    #n{
+        font-size: 16px;
+        margin-left: 58px ;
+    }
+    .strong1{
+        position: absolute;
+        left: 0%;
+    }
+    .strong2{
+        position: absolute;
+        left: 62%;
+    }
+    .strong3{
+        position: absolute;
+        left: 140%;
+
+    }
+    .post3{
+        margin-left: 290px;
+        width: 40%;
+        margin-top: -40px;
+        font-size: 16px;
+    }
+    .post4{
+        margin-left: 290px;
+        width: 50%;
+        margin-top: -15px;
+        font-size: 16px;
+    }
+    .post5{
+        margin-left: 290px;
+        width: 50%;
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .post6{
+        margin-left: 290px;
+        width: 50%;
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .post7{
+        margin-left: 290px;
+        width: 50%;
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .link{
+        margin-left: 290px;
+        width: 50%;
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .highlight{
+        margin-left: 80px;
+    }
+    .how{
+        width: 85px;
+        height: auto;
+        margin-left: 0px;
+    }
+    .tap-me{
+        width: 85px;
+        height: auto;
+        margin-left: 40px;
+    }
+    .one-house{
+        width: 85px;
+        height: auto;
+        margin-left: 40px;
+    }
+    .why{
+        width: 85px;
+        height: auto;
+        margin-left: 40px;
+    }
+    .review{
+        width: 85px;
+        height: auto;
+        margin-left: 40px;
+    }
+    .minh1{
+        margin-left: 27px;
+        font-size: 15px;
+    }
+    .minh2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .minh3{
+        margin-left: 53px;
+        width: 60%;
+        font-size: 15px;
+    }
+    .minh4{
+        margin-left: 68px;
+        font-size: 15px;
+    }
+    .minh5{
+        margin-left: 57px;
+        font-size: 15px;
+    }
+    .line{
+        width: 95%;    
+    }
+    .line1{
+        display: none;
+    }
+    .options{
+        margin-left: 65px;
+    }
+    ._8-yf5-6{
+        height: 13px;
+        width: auto;
+    }
+    .post-minh{
+        font-size: 12px;
+    }
+    .guide{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    .reel{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    .video{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    .tag{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    .posts{
+        margin-left: 20px;
+        margin-top: 25px;
+        gap: 25px;
+        width: 375px;
+    }
+    .mm{
+        display: block;
+    }
+    .image{
+        height: 227px;
+        width: 227px;
+    }
+    .imgContainer{
+        height: 227px;
+        width: 227px;
+    }
+    .imgContainer:hover{
+        transform: scale(1); 
+    }
+    .imgContainer .links{
+        top: 40%;
+        left: 34%;
+    }
+}

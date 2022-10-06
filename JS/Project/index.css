@@ -1,0 +1,316 @@
+body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background{
+    background-image: linear-gradient(to bottom,#00468e,#3d2380);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.post{
+    position: relative;
+    background-color: #e8ecf3;
+    width: 370px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+ .spinner-container{
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+.percentage{
+    display: grid;
+    place-items: center;
+    font-size: 30pt;
+    color: #9498a2;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    text-align: center;
+}
+
+ .spinner{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    transition: all .3s ease-in-out;
+}
+
+.spinner-border{
+    border: 4px solid #dde1ec;
+    border-radius: 100%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.spinner-gradient{
+    background: conic-gradient(transparent,transparent,transparent,#0069dd);
+    border-radius: 100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.spinner-gradient-cover{
+    background-color: #e8ecf3;
+    z-index: 3;
+    border-radius: 100%;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    position: absolute;
+
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+ .spinner-knob-container{
+    display: grid;
+    place-items: center;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+ .spinner-knob{
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    transform: rotate(45deg);
+}
+
+.knob{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #0000004d;
+}
+
+.download-button{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.post .download-button .container{
+    width: 230px;
+    height: 60px;
+    position: relative;
+    box-shadow: 0 15px 30px -15px #0069ddbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blue-bg{
+    background: #0069dd;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.post .download-button .container .text{
+    flex: 1;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.icon{
+    flex: 0 0 50px;
+    z-index: 1;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+
+
+
+.line-left{
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: #fff;
+    width: 12px;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    top: -3px;
+    transition: width .3s ease-in-out;
+}
+
+.line1-left{
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: #0069dd;
+    width: 12px;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    top: 0px;
+    transition: width .3s ease-in-out;
+}
+
+.line-mid{
+    width: 20px;
+    top: 3px;
+    left: 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    transition: all .3s ease-in-out;
+    
+}
+
+.line1-mid{
+    width: 20px;
+    top: 6px;
+    left: 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    background-color: #0069dd;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    transition: all .3s ease-in-out
+}
+
+.line-right{
+    transform: rotate(-45deg);
+    top: 6px;
+    left: 7px;
+    position: absolute;
+    background-color: #fff;
+    width: 12px;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    transition: width .3s ease-in-out;
+}
+
+.line1-right{
+    transform: rotate(-45deg);
+    top: 9px;
+    left: 7px;
+    position: absolute;
+    background-color: #0069dd;
+    width: 12px;
+    border-radius: 5px;
+    height: 4px;
+    transform-origin: left;
+    transition: width .3s ease-in-out;
+}
+
+.white-arrow{
+    position: relative;
+    top: -10px;
+    left: 15px;
+    height: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.white1-arrow{
+    position: relative;
+    top: -15px;
+    left: 15px;
+    height: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.white2-arrow{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 30px;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.white-line{
+    width: 25px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+
+.container-wipe-main{
+    width: 230px;
+    position: absolute;
+    z-index: 2;
+}
+
+.container-wipe{
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.post .download-button .container-wipe-main .container-wipe .container{
+    background-color: #fff;
+}
+
+.post .download-button .container-wipe-main .container-wipe .container .text{
+    color: #0069dd;
+}
+
+.text1{
+    color: #0069dd;
+    flex: 1;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 500;
+}
+

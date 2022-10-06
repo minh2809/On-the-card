@@ -1,0 +1,243 @@
+
+@media all and (min-width:390px) and (max-width:844px) {
+    .body{
+        width: 100%;
+        background: #f5f2f281;  
+    }
+    .navbar{
+        color: var(--textcolor);
+        position: fixed;
+    }
+    .logo{
+        height: 60%;
+        width: auto;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .search-box{
+        display: none;
+    }
+    .nav-items{
+        margin-left: 48px;
+    }
+    ._8-yf5{
+        margin-left: 7px;
+        margin-right: 7px;
+        height: 22px;
+        width: auto;
+        margin-top: 3px;
+    }
+    .profile-picture{
+        margin-top: 3px;
+        height: 23px;
+    }
+    .otc-logo{
+        height: 80px;
+        margin-left: 20px;
+        border: 3px solid #F77737;
+        margin-top: 70px;
+    }
+    .post1{
+        margin-left: 70px;
+    }
+    .post1 p{
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .follow{
+        margin-left: -120px;
+        margin-top: 120px;
+        width: 180px;
+    }
+    .more{
+        margin-left: 10px;
+        margin-top: 120px;
+        height: 31px;
+    }
+    .post1 .icon{
+        margin-left: -80px;
+        margin-top: 80px;
+    }
+    .post3{
+        margin-left: 20px;
+        margin-top: 17px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .post4{
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .post5{
+        margin-left: 20px;
+        margin-top: 1px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .post6{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .post7{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .link{
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .highlight{
+        margin-left: 15px;
+    }
+    .how{
+        height: 60px;
+        width: auto;
+        margin-left: 0px;
+    }
+    .tap-me{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .one-house{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .why{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .review{
+        height: 60px;
+        width: auto;
+        margin-left: 5px;
+    }
+    .minh1{
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .minh2{
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .minh3{
+        font-size: 13px;
+        margin-left: 7px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .minh4{
+        font-size: 13px;
+        margin-left: 23px;
+        margin-top: 0px;
+    }
+    .minh5{
+        font-size: 13px;
+        margin-left: 13px;
+        margin-top: 0px;
+    }
+    .post2{
+        position: relative;
+        top: 375px;
+        left: 47px;
+        margin-left: 10px;
+        padding-left: 30px;
+    }
+    .line1{
+        border-top: 1px solid #dfdfdf;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+    }
+    #m{
+        margin-left: -30px;
+        font-size: 14px;
+        margin-top: 19px;
+    }
+    #i{
+        margin-left: 65px;
+        font-size: 14px;
+        margin-top: 19px;
+    }
+    #n{
+        font-size: 14px;
+        margin-left: 65px;
+        margin-top: 19px;
+    }
+    .strong1{
+        margin-left: 4px;
+    }
+    .strong2{
+        margin-left: 10px;
+    }
+    .strong3{
+        margin-left: 20px;
+    }
+    .options{
+        margin-left: 0px;
+    }
+    .post-minh{
+        margin-left: 40px;
+    }
+    .guide{
+        margin-left: 45px;
+    }
+    .mm{
+        display: none;
+    }
+    .reel{
+        margin-left: 45px;
+    }
+    .video{
+        margin-left: 45px;
+    }
+    .tag{
+        margin-left: 45px;
+    }
+    ._8-yf5-6{
+        width: 25px;
+        height: 25px;
+    }
+    .posts{
+        margin-left: 0px;
+        margin-top: 0px;
+        gap: 6px;
+        width: 375px;
+    }
+    .image{
+        height: 126px;
+        width: 126px;
+    }
+    .imgContainer{
+        height: 126px;
+        width: 126px;
+    }
+    .imgContainer:hover{
+        transform: scale(1);
+        
+    }
+    .imgContainer .links i{
+        color: transparent;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .imgContainer .links{
+        top: 35%;
+        left: 21%;
+    }
+}

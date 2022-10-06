@@ -1,0 +1,97 @@
+body{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    background: white;
+}
+
+.post1{
+    background: white;
+    width: 400px;
+    height: 55px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.post1 .logo{
+    display: flex;
+    height: 30px;
+    width: auto;
+    border: rgb(216, 113, 44) 3px solid;
+    border-radius: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.post1 .username{
+    margin-right: 100px;
+    line-height: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.post1 a{
+    border: none;
+    background: rgb(8, 157, 243);
+    text-decoration: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    width: 90px;
+    margin-right: 10px; 
+    border-radius: 3px;
+    margin-top: 11px;
+}
+
+.post1 .button{
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 1px;
+}
+
+.post2{
+    background: white;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    border: #ccc 1px solid;
+}
+
+.post2 .picture{
+    height: 500px;
+    object-fit: cover;
+    width: auto;
+}
+
+.post3{
+    background: white;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    border: #ccc 1px solid;
+    border-radius: 0 0 15px 15px;
+}
+
+.post3 a{
+    text-decoration: none;
+    color:rgb(8, 157, 243);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.post1, .post2, .post3 {
+    box-shadow: 6px 6px 5px black;
+}

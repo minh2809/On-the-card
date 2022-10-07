@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 function DataFetching() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState<any[]>([]);
 
   useEffect(() => {
     axios
@@ -15,6 +15,9 @@ function DataFetching() {
         console.log(err);
       });
   }, []);
+
+  const addListItem = () => {};
+
   return (
     <div>
       <ul>

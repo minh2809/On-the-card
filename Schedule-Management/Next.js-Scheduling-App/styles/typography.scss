@@ -1,0 +1,103 @@
+@mixin P1_Book() {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@mixin P1_Medium() {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@mixin P1_Medium_Oblique() {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin P2_Book() {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@mixin P2_Book_Oblique() {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@mixin P2_Medium() {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@mixin P2_Medium_Oblique() {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin P2_Heavy() {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+@mixin P2_Heavy_Oblique() {
+  font-size: 14px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@mixin P3_Book() {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin P3_Medium() {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@mixin P3_Heavy() {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+@mixin P4_Book() {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@mixin P4_Heavy() {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@mixin P5_Heavy() {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@mixin H1_Medium() {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@mixin H1_Bold() {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@mixin H2_Medium() {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+@mixin H2_Bold() {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@mixin H3_Bold() {
+  font-size: 32px;
+  font-weight: 700;
+}

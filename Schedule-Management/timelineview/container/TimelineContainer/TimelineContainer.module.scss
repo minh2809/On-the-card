@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  width: 300px;
+  margin-left: 300px;
+}
+
+.hourContainer {
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.dot {
+  margin-top: -3px;
+  margin-left: 5px;
+  color: grey;
+}
+
+.dot_active {
+  color: #1975ff;
+}

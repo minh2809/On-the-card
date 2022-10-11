@@ -1,0 +1,20 @@
+@import "@/styles/colors";
+@import "@/styles/typography";
+
+.button {
+  position: relative;
+  background-color: $secondary_sky_blue_light;
+  margin: 0px auto;
+  margin-top: 10vh;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  @include P3_Heavy();
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  &:hover {
+    opacity: 0.75;
+  }
+}

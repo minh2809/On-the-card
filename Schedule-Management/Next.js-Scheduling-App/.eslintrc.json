@@ -1,0 +1,55 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "node_modules/**",
+    "dist/**",
+    ".*",
+    ".prettierrc",
+    "prettier.config.js"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "@typescript-eslint/semi": ["error", "never"],
+
+    "no-console": 0,
+    "react-hooks/rules-of-hooks": 0,
+    "no-param-reassign": 0,
+
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-unused-vars": "off",
+
+    "@typescript-eslint/unbound-method": [
+      "error",
+      {
+        "ignoreStatic": true
+      }
+    ],
+
+    "consistent-return": "off",
+    "default-case": "off",
+    "@typescript-eslint/switch-exhaustiveness-check": "error",
+
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "arrow-body-style": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": ["function-declaration", "arrow-function"],
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "import/no-cycle": ["off"]
+  }
+}

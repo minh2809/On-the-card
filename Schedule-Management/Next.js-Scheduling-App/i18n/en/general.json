@@ -1,0 +1,13 @@
+{
+  "button": {
+    "cancel": "Cancel",
+    "createNew": "Create New",
+    "edit": "Edit",
+    "save": "Save",
+    "addData": "Add Data",
+    "delete": "Delete",
+    "upload": "Upload",
+    "more": "More",
+    "addNewValue": "Add New Value"
+  }
+}

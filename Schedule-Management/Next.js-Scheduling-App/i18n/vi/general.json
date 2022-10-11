@@ -1,0 +1,13 @@
+{
+  "button": {
+    "cancel": "Huỷ",
+    "createNew": "Tạo Mới",
+    "edit": "Chỉnh Sửa",
+    "save": "Lưu",
+    "addData": "Thêm Dữ Liệu",
+    "delete": "Xoá",
+    "upload": "Đăng Tải",
+    "more": "Thêm",
+    "addNewValue": "Thêm Gía Trị"
+  }
+}

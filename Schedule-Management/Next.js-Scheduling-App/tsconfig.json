@@ -20,12 +20,6 @@
     },
     "typeRoots": ["types/form.d.ts", "types/master-data.d.ts"]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "next.config.js",
-    "components/Table/Table.jsx"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
   "exclude": ["node_modules"]
 }

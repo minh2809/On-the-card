@@ -1,0 +1,22 @@
+.container {
+  width: 770px;
+}
+
+.weekdays {
+  width: 100%;
+  display: flex;
+  color: #247ba0;
+
+  div {
+    width: 110px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+.calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
